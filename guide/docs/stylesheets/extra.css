@@ -8,7 +8,7 @@
 
 .md-typeset .admonition,
 .md-typeset details {
-  border-width: 0;
+  border-width: 1px;
   border-left-width: 4px;
 }
 
