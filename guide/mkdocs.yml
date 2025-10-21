@@ -1,0 +1,153 @@
+site_name: Dessert's Brickadia Guide
+site_url: https://dessertsource.github.io/dessert-brickadia-guide
+site_author: DessertSource
+site_description: >-
+  A manual for Brickadia by DessertSource
+
+repo_url: https://github.com/dessertsource/dessert-brickadia-guide
+repo_name: dessert-br-guide
+
+watch:
+  - overrides
+
+
+copyright: >
+  Copyright &copy; 2025 DessertSource
+
+theme:
+
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+
+  font:
+    text: Inter
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - navigation.footer
+    - toc.follow
+    - content.tooltips
+
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/plus-circle-outline
+
+  custom_dir: overrides
+  
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+
+  - search
+  - social:
+      cards_layout_options:
+        font_family: Inter
+  - privacy:
+      enabled: !ENV [CI, false]
+  - offline
+  - panzoom
+  - glightbox:
+      touchNavigation: true
+      loop: true
+      effect: none
+      slide_effect: none
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-lbox
+      auto_caption: true
+      caption_position: bottom
+      background: gray
+      shadow: true
+      manual: false
+
+markdown_extensions:
+
+  - abbr
+  - admonition
+  - toc:
+      permalink: true
+      title: On this page
+      toc_depth: 0-3
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - tables
+  - pymdownx.keys
+  - pymdownx.snippets
+  - footnotes
+
+extra:
+
+  consent:
+    title: Cookie consent
+    description: >- 
+      Let's cut straight to the point.
+      There's a Github cookie in there that doesn't
+      affect the experience when disabled / rejected.
+      You only have to do this once.
+      I didn't make this pop-up, but it's safer to have this
+      on than to explain in some other country's court for
+      data collection.
+    actions:
+      - accept
+      - reject
+      - manage 
+
+  scope: /brickadia-guide/
+
+  social:
+
+    - icon: community/neocities
+      link: https://dessertsource.neocities.org/
+      name: My personal Neocities website
