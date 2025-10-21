@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - 'dessert-br-guide/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
