@@ -5,7 +5,7 @@ site_description: >-
   A manual for Brickadia by DessertSource
 
 repo_url: https://github.com/dessertsource/dessert-brickadia-guide
-repo_name: dessert-br-guide
+repo_name: dessert-brickadia-guide
 
 watch:
   - overrides
@@ -146,8 +146,8 @@ extra:
 
   scope: /brickadia-guide/
 
-  social:
+#  social:
 
-    - icon: community/neocities
-      link: https://dessertsource.neocities.org/
-      name: My personal Neocities website
+#    - icon: community/neocities
+#      link: https://dessertsource.neocities.org/
+#      name: My personal Neocities website
