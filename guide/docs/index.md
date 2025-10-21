@@ -69,5 +69,3 @@ sequenceDiagram
   John->>Bob: How about you?
   Bob-->>John: Jolly good!
 ```
-
-this is here just to push a change
