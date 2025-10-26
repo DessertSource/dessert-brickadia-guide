@@ -8,7 +8,7 @@ A Brickadia guide I am in charge of.
 ## Things to Reckon
 
 * This is not affiliated with the Brickadia team or any other projects documenting the game's features themselves. What I do is my own intepretation
-of my guide. Here's one objectively good thing I can say about my guide: It does not use the ad-filled and bloated Fandom.com.
+of my guide. **Here's one objectively good thing I can say about my guide: It does not use the ad-filled and bloated Fandom.com.**
 * Do not ask me to update this every day the build number goes up by 1 or you will get banished to the basement. You certainly do not want to anger me.
 * This is a part time project meaning that I won't be there 24/7 making or attending to the guide. Please be mindful of my time.
 I have other priorities too and just because I'm a Brickadia contributor with accessible contact credentials does not mean you have ownership of what I do.
