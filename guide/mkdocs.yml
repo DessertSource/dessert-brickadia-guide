@@ -10,9 +10,9 @@ repo_name: dessert-brickadia-guide
 watch:
   - overrides
 
-
 copyright: >
-  Copyright &copy; 2025 DessertSource
+  Copyright &copy; 2025 DessertSource –
+  <a href="#__consent">Change cookie settings</a>
 
 theme:
 
@@ -66,6 +66,12 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/tablesort.js
+  - https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js
 
 plugins:
 
@@ -126,19 +132,18 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.snippets
   - footnotes
+  - pymdownx.arithmatex:
+      generic: true
 
 extra:
 
   consent:
-    title: Cookie consent
+    title: Cookie Consent
     description: >- 
-      Let's cut straight to the point.
-      There's a Github cookie in there that doesn't
+      There's a Github cookie in here that doesn't
       affect the experience when disabled / rejected.
-      You only have to do this once.
-      I didn't make this pop-up, but it's safer to have this
-      on than to explain in some other country's court for
-      data collection.
+      I didn't make this pop-up, but I'd rather not have
+      GDPR knocking down my door for a documentation website.
     actions:
       - accept
       - reject
