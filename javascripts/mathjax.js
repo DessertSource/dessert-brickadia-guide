@@ -9,14 +9,9 @@ window.MathJax = {
     ignoreHtmlClass: ".*|",
     processHtmlClass: "arithmatex"
   },
-  output: {
-    font: 'mathjax-newcm'
-  }
 };
 
 document$.subscribe(() => { 
-
-
   MathJax.startup.output.clearCache()
   MathJax.typesetClear()
   MathJax.texReset()

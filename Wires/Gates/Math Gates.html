@@ -9,7 +9,7 @@
         <meta name="author" content="DessertSource">
       
       
-        <link rel="canonical" href="https://dessertsource.github.io/dessert-brickadia-guide/Wires/Pure%20Gates/Math%20Gates.html">
+        <link rel="canonical" href="https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Math%20Gates.html">
       
       
         <link rel="prev" href="../../FAQ/general.html">
@@ -74,7 +74,7 @@
       
         <meta property="og:description" content="A manual for Brickadia by DessertSource">
       
-        <meta property="og:image" content="https://dessertsource.github.io/dessert-brickadia-guide/assets/images/social/Wires/Pure Gates/Math Gates.png">
+        <meta property="og:image" content="https://dessertsource.github.io/dessert-brickadia-guide/assets/images/social/Wires/Gates/Math Gates.png">
       
         <meta property="og:image:type" content="image/png">
       
@@ -82,7 +82,7 @@
       
         <meta property="og:image:height" content="630">
       
-        <meta property="og:url" content="https://dessertsource.github.io/dessert-brickadia-guide/Wires/Pure%20Gates/Math%20Gates.html">
+        <meta property="og:url" content="https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Math%20Gates.html">
       
         <meta name="twitter:card" content="summary_large_image">
       
@@ -90,12 +90,12 @@
       
         <meta name="twitter:description" content="A manual for Brickadia by DessertSource">
       
-        <meta name="twitter:image" content="https://dessertsource.github.io/dessert-brickadia-guide/assets/images/social/Wires/Pure Gates/Math Gates.png">
+        <meta name="twitter:image" content="https://dessertsource.github.io/dessert-brickadia-guide/assets/images/social/Wires/Gates/Math Gates.png">
       
     
     
   <meta name="panzoom-theme" content="material">
-<meta name="panzoom-data" content="{&quot;selectors&quot;: [&quot;.d2&quot;, &quot;.mermaid&quot;], &quot;initial_zoom_level&quot;: 1.0}"> <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+<meta name="panzoom-data" content="{&quot;selectors&quot;: [&quot;.mermaid&quot;, &quot;.d2&quot;], &quot;initial_zoom_level&quot;: 1.0}"> <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -562,7 +562,7 @@
   
   
   <span class="md-ellipsis">
-    Pure Gates
+    Gates
     
   </span>
   
@@ -573,7 +573,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            Pure Gates
+            Gates
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -714,6 +714,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#blend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blend
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modulo-floor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modulo Floor
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -841,6 +868,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#blend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blend
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modulo-floor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modulo Floor
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -861,14 +915,45 @@
 
 
 <h1 id="math-gates">Math Gates<a class="headerlink" href="#math-gates" title="Permanent link">¶</a></h1>
-<p>These gates cover the four basic operations of mathematics.</p>
-<h2 id="add">Add<a class="headerlink" href="#add" title="Permanent link">¶</a></h2>
-<p>Add the value of <strong>Input B</strong> to <strong>Input A</strong>.</p>
-<div class="arithmatex">\[ a + b = \text{output} \]</div>
+<p>These gates are based on real-world mathematics. You will need ample knowledge to
+use these gates itself, so it is recommended you recap or read on real-world mathematics
+fundamentals.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you often struggle with mathematics or have
+<a href="https://en.wikipedia.org/wiki/Dyscalculia">dyscalculia</a>,
+these gates may not be suitable for your usage. In this case, you
+might want to ask for the help of someone else to guide you through
+these gates.</p>
+</div>
+<h2 id="add"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 14h-6v6h-4v-6H4v-4h6V4h4v6h6z"></path></svg></span> Add<a class="headerlink" href="#add" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Add Gate" data-desc-position="bottom"><img alt="Add Gate" src="../../assets/diagrams/gates/Add_Gate.svg"></a></p>
+<p>This gate outputs the sum of both inputs
+(<span class="arithmatex">\(\text{Input A} + \text{Input B} = \text{Output}\)</span>).</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Using negative values on add gates" data-desc-position="bottom"><img alt="Using negative values on add gates" src="../../assets/diagrams/gates/Add_Negative.svg"></a></p>
+<p>This gate will add or subtract based on <strong>Input B</strong>.</p>
+<ul>
+<li>If <em>Input B</em> is <strong>positive</strong>, the gate will do addition as normal.
+<br> <span class="arithmatex">\(A + B = \text{Output}\)</span></li>
+<li>If <em>Input B</em> is <strong>negative</strong>, the gate will do subtraction instead.
+<br> <span class="arithmatex">\((A + -B) \rightarrow (A - B) = \text{Output}\)</span></li>
+</ul>
+<p>These rules <strong>do not</strong> apply to <strong>Input A</strong>. <em>Input A</em> can either be positive or negative
+without any effect to the functionality.</p>
 <h2 id="subtract">Subtract<a class="headerlink" href="#subtract" title="Permanent link">¶</a></h2>
-<p>Subtracts the value of <strong>Input A</strong> with the value of <strong>Input B</strong>.
-Order sensitive.</p>
-<div class="arithmatex">\[ a - b = \text{output}\]</div>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Subtract Gate" data-desc-position="bottom"><img alt="Subtract Gate" src="../../assets/diagrams/gates/Subtract_Gate.svg"></a></p>
+<p>This gate outputs the product of subtracting Input A with Input B
+(<span class="arithmatex">\(\text{Input A} - \text{Input B} = \text{Output}\)</span>).</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Using negative values on subtract gates" data-desc-position="bottom"><img alt="Using negative values on subtract gates" src="../../assets/diagrams/gates/Subtract_Negative.svg"></a></p>
+<p>This gate will subtract or add based on <strong>Input B</strong>.</p>
+<ul>
+<li>If <em>Input B</em> is <strong>positive</strong>, the gate will do subtraction as normal.
+<br> <span class="arithmatex">\(A - B = \text{Output}\)</span></li>
+<li>If <em>Input B</em> is <strong>negative</strong>, the gate will do addition instead.
+<br> <span class="arithmatex">\((A - -B) \rightarrow (A + B) = \text{Output}\)</span></li>
+</ul>
+<p>These rules <strong>do not</strong> apply to <strong>Input A</strong>. <em>Input A</em> can either be positive or negative
+without any effect to the functionality.</p>
 <h2 id="multiply"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 6.91 17.09 4 12 9.09 6.91 4 4 6.91 9.09 12 4 17.09 6.91 20 12 14.91 17.09 20 20 17.09 14.91 12z"></path></svg></span> Multiply<a class="headerlink" href="#multiply" title="Permanent link">¶</a></h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Multiply Gate" data-desc-position="bottom"><img alt="Multiply Gate" src="../../assets/diagrams/gates/Multiply_Gate.svg"></a></p>
 <p>This gate outputs the product of multiplying both inputs
@@ -899,11 +984,6 @@ involving exponents that are above 2.</p>
 <p>This gate outputs the product of dividing both inputs
 (<span class="arithmatex">\(\text{Input A} \div \text{Input B} = \text{Output}\)</span>).
 Division can also be represented by using fractions.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Pay attention when connecting each input. Division is a
-order-sensitive operation.</p>
-</div>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Using negative values on divide gates" data-desc-position="bottom"><img alt="Using negative values on divide gates" src="../../assets/diagrams/gates/Divide_Negative.svg"></a></p>
 <ul>
 <li>If the inputs are both positive or negative, the output always
@@ -916,6 +996,13 @@ has a positive value, the output always comes out as <strong>negative</strong>.<
 other values, which may prove useful in scenarios where using <em>Divide</em>
 gates over <em>Multiply</em> gates are preferred.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Multiplying 2 by 4 with divide gates." data-desc-position="bottom"><img alt="Multiplying 2 by 4 with divide gates." src="../../assets/diagrams/gates/Divide_Multiplication.svg"></a></p>
+<h2 id="blend"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 19v1h18v2H2V2h2v15c3 0 6-2 8.1-5.6 3-5 6.3-7.4 9.9-7.4v2c-2.8 0-5.5 2.1-8.1 6.5C11.3 16.6 7.7 19 4 19"></path></svg></span> Blend<a class="headerlink" href="#blend" title="Permanent link">¶</a></h2>
+<p>This gate is based on linear interpolation (alternatively called a Lerp).</p>
+<p>The linear interpolation formula:</p>
+<div class="arithmatex">\[y = y_{0} + (x-x_{0})\frac{y_{1}-y_{0}}{x_{1}-x_{0}}\]</div>
+<h2 id="modulo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18.5 3.5-15 15 2 2 15-15M7 4a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m10 10a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3"></path></svg></span> Modulo<a class="headerlink" href="#modulo" title="Permanent link">¶</a></h2>
+<h2 id="modulo-floor"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18.5 3.5-15 15 2 2 15-15M7 4a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m10 10a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3"></path></svg></span> Modulo Floor<a class="headerlink" href="#modulo-floor" title="Permanent link">¶</a></h2>
+<p>Python modulo</p>
 
 
 
@@ -938,7 +1025,7 @@ gates over <em>Multiply</em> gates are preferred.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 26, 2025 14:45:14 UTC"><span class="timeago" datetime="2025-10-26T14:45:14+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 26, 2025 14:45:14 UTC">2025-10-26</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 27, 2025 13:10:54 UTC"><span class="timeago" datetime="2025-10-27T13:10:54+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 27, 2025 13:10:54 UTC">2025-10-27</span>
   </span>
 
     
