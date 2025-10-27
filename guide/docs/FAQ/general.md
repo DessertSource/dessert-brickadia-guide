@@ -32,7 +32,7 @@ it ran better than the native Linux build
 
 Brickadia runs on [**Unreal Engine 5**](https://www.unrealengine.com/).
 
-A gaming-class card with 4GB of video memory or more, 12GB+ system memory and a
+A gaming-class card with 4GB of video memory or more, 12GB system memory or more and a
 adequate modern processor of 6 or more cores is recommended. Modern systems will support
 and take advantage of *DirectX 12* with no issue. For older systems, I recommend *DirectX 11*
 for better performance on those systems. For systems with inadequate CPU or GPU, the
@@ -50,7 +50,7 @@ servers and worlds, meaning there is no central benchmark. Some worlds or server
 will be heavy on performance, and some may be light enough to be able to run
 on integrated graphics without going under tolerable framerates.
 
-## Communication Channels
+## Social
 
 You can follow or interact the official Brickadia social media accounts here:
 
@@ -62,6 +62,8 @@ You can follow or interact the official Brickadia social media accounts here:
 * [**Reddit**](https://reddit.com/r/brickadia)
 
 ## Forums
+
+![Brickadia's Discord.](../assets/pictures/static/faq-general-forums-discord.png)
 
 We have a [**Discord**](https://discord.gg/brickadia), but no forum yet.
 Any other forum is unofficial and not affiliated with the official team working
