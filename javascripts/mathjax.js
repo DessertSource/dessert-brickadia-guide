@@ -10,7 +10,7 @@ window.MathJax = {
     processHtmlClass: "arithmatex"
   },
   output: {
-    font: 'https://cdn.jsdelivr.net/npm/@mathjax/mathjax-stix2-font'
+    font: 'mathjax-newcm'
   }
 };
 
