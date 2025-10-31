@@ -721,6 +721,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Blend">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ceil
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Floor
+    </span>
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
@@ -730,14 +772,20 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Modulo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#modulo-floor" class="md-nav__link">
     <span class="md-ellipsis">
-      Modulo Floor
+      Modulo (Floor)
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -875,6 +923,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Blend">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ceil
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Floor
+    </span>
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
@@ -884,14 +974,20 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Modulo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#modulo-floor" class="md-nav__link">
     <span class="md-ellipsis">
-      Modulo Floor
+      Modulo (Floor)
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -918,14 +1014,6 @@
 <p>These gates are based on real-world mathematics. You will need ample knowledge to
 use these gates itself, so it is recommended you recap or read on real-world mathematics
 fundamentals.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you often struggle with mathematics or have
-<a href="https://en.wikipedia.org/wiki/Dyscalculia">dyscalculia</a>,
-these gates may not be suitable for your usage. In this case, you
-might want to ask for the help of someone else to guide you through
-these gates.</p>
-</div>
 <h2 id="add"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 14h-6v6h-4v-6H4v-4h6V4h4v6h6z"></path></svg></span> Add<a class="headerlink" href="#add" title="Permanent link">¶</a></h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Add Gate" data-desc-position="bottom"><img alt="Add Gate" src="../../assets/diagrams/gates/Add_Gate.svg"></a></p>
 <p>This gate outputs the sum of both inputs
@@ -997,12 +1085,113 @@ other values, which may prove useful in scenarios where using <em>Divide</em>
 gates over <em>Multiply</em> gates are preferred.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Multiplying 2 by 4 with divide gates." data-desc-position="bottom"><img alt="Multiplying 2 by 4 with divide gates." src="../../assets/diagrams/gates/Divide_Multiplication.svg"></a></p>
 <h2 id="blend"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 19v1h18v2H2V2h2v15c3 0 6-2 8.1-5.6 3-5 6.3-7.4 9.9-7.4v2c-2.8 0-5.5 2.1-8.1 6.5C11.3 16.6 7.7 19 4 19"></path></svg></span> Blend<a class="headerlink" href="#blend" title="Permanent link">¶</a></h2>
-<p>This gate is based on linear interpolation (alternatively called a Lerp).</p>
-<p>The linear interpolation formula:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Blend Gate" data-desc-position="bottom"><img alt="Blend Gate" src="../../assets/diagrams/gates/Blend_Gate.svg"></a></p>
+<p>To simplify this down with a brief explanation: this gate is commonly
+used to:</p>
+<ul>
+<li>Select a set of numbers based on an
+<a class="float" href=""><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m22 17-3 3v-2h-6v-2h6v-2zM9 5a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3 3 3 0 0 1-3-3V8a3 3 0 0 1 3-3m0 2a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1 1 1 0 0 0 1-1V8a1 1 0 0 0-1-1m7-2a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3 3 3 0 0 1-3-3V8a3 3 0 0 1 3-3m0 2a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1 1 1 0 0 0 1-1V8a1 1 0 0 0-1-1M4 12a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1"></path></svg></span> <strong>Float value</strong></a>.</li>
+<li>Output two numbers depending on a
+<a class="bool" href=""><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 17h3l-4 4-4-4h3V3h2zM7 3C4.79 3 3 4.79 3 7s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4m0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2m0 4c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4"></path></svg></span> <strong>Boolean value</strong></a>.</li>
+</ul>
+<p>This gate is based on linear interpolation
+(alternatively called a Lerp in computer terms).</p>
+<h3 id="formula">Formula<a class="headerlink" href="#formula" title="Permanent link">¶</a></h3>
+<p>We will show the linear original interpolation formula:</p>
 <div class="arithmatex">\[y = y_{0} + (x-x_{0})\frac{y_{1}-y_{0}}{x_{1}-x_{0}}\]</div>
+<p>This gate uses the same formula, but swaps out the variables
+for the inputs' values:</p>
+<div class="arithmatex">\[\text{Output} = \text{Input A} + (\text{Blend Value}-0)\frac{\text{Input B}-{\text{Input A}}}{1-0}\]</div>
+<p>To cut down on redundancy, we will simplify the formula down to this:</p>
+<div class="arithmatex">\[\text{Output} = \text{A} + (\text{Blend Value})(\text{B}-{\text{A}})\]</div>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="boolean-value-as-blend-value" name="__tabbed_1" type="radio"><input id="float-value-as-blend-value" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="boolean-value-as-blend-value">Boolean value as blend value</label><label for="float-value-as-blend-value">Float value as blend value</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>A Boolean value can only either be 0 (false) or 1 (true),
+which makes it a perfect candidate if you just want to use
+the Blend gate to make a switch output between two custom
+values.</p>
+<p>Given <em>Input A</em> is <strong>10</strong> and <em>Input B</em> is <strong>20</strong>:</p>
+<ul>
+<li>If <em>Blend Value</em> is <strong>False</strong>,
+the Blend gate outputs <strong>10</strong>.
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Example of blend gate with a False boolean value" data-desc-position="bottom"><img alt="Example of blend gate with a False boolean value" src="../../assets/diagrams/gates/Blend_Bool_False.svg"></a></li>
+<li>If <em>Blend Value</em> is <strong>True</strong>,
+the Blend gate outputs <strong>20</strong>.
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Example of blend gate with a True boolean value" data-desc-position="bottom"><img alt="Example of blend gate with a True boolean value" src="../../assets/diagrams/gates/Blend_Bool_True.svg"></a></li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p>Since this warrants the use of the equation above,
+we will use it to demonstrate how the Blend Gate outputs
+a value.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Example of blend gate with its output hidden" data-desc-position="bottom"><img alt="Example of blend gate with its output hidden" src="../../assets/diagrams/gates/Blend_Float_Unrevealed.svg"></a></p>
+<p>Given input A is <strong>50</strong> and input B is <strong>80</strong>, and
+the blend value is <strong>0.37</strong>:</p>
+<p>First, we subtract 80 (<span class="arithmatex">\(\text{B}\)</span>)
+by 50 (<span class="arithmatex">\(\text{A}\)</span>). 30 is the result.</p>
+<div class="arithmatex">\[\text{Output} = 50 + (0.37)(80-50)\]</div>
+<p>Multiply the blend value with the result of
+<span class="arithmatex">\((\text{B}-\text{A})\)</span>. The result is 11.1.</p>
+<div class="arithmatex">\[\text{Output} = 50 + (0.37)(30)\]</div>
+<p>Finally, get the sum of Input A and the result of
+<span class="arithmatex">\((\text{Blend Value})(\text{B}-\text{A})\)</span>.</p>
+<div class="arithmatex">\[\text{Output} = 50 + 11.1\]</div>
+<p>You have the gate's final output.</p>
+<div class="arithmatex">\[\text{Output} = 61.1\]</div>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Example of blend gate with a float blend value" data-desc-position="bottom"><img alt="Example of blend gate with a float blend value" src="../../assets/diagrams/gates/Blend_Float_Result.svg"></a></p>
+</div>
+</div>
+</div>
+<h2 id="ceil">Ceil<a class="headerlink" href="#ceil" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Ceil Gate" data-desc-position="bottom"><img alt="Ceil Gate" src="../../assets/diagrams/gates/Ceil_Gate.svg"></a></p>
+<p>This gate rounds an float value up to the higher integer equivalent.</p>
+<p>Two examples of Ceil:</p>
+<ul>
+<li>If the input is <strong>5.06</strong>, it is rounded up to the integer of <strong>6</strong>.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="5.06 being rounded up using a Ceil gate" data-desc-position="bottom"><img alt="5.06 being rounded up using a Ceil gate" src="../../assets/diagrams/gates/Ceil_Example_1.svg"></a></li>
+<li>If the input is <strong>8.83</strong>, it is rounded up to the integer of <strong>9</strong>.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="8.83 being rounded up using a Ceil gate" data-desc-position="bottom"><img alt="8.83 being rounded up using a Ceil gate" src="../../assets/diagrams/gates/Ceil_Example_2.svg"></a></li>
+</ul>
+<h2 id="floor">Floor<a class="headerlink" href="#floor" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Floor Gate" data-desc-position="bottom"><img alt="Floor Gate" src="../../assets/diagrams/gates/Floor_Gate.svg"></a></p>
+<p>This gate rounds an float value down to the lower integer equivalent.</p>
+<p>Two examples of Floor:</p>
+<ul>
+<li>If the input is <strong>2.46</strong>, it is rounded down to the integer of <strong>2</strong>.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="2.46 being rounded down using a Floor gate" data-desc-position="bottom"><img alt="2.46 being rounded down using a Floor gate" src="../../assets/diagrams/gates/Floor_Example_1.svg"></a></li>
+<li>If the input is <strong>3.71</strong>, it is rounded down to the integer of <strong>3</strong>.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="3.71 being rounded down using a Floor gate" data-desc-position="bottom"><img alt="3.71 being rounded down using a Floor gate" src="../../assets/diagrams/gates/Floor_Example_2.svg"></a></li>
+</ul>
 <h2 id="modulo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18.5 3.5-15 15 2 2 15-15M7 4a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m10 10a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3"></path></svg></span> Modulo<a class="headerlink" href="#modulo" title="Permanent link">¶</a></h2>
-<h2 id="modulo-floor"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18.5 3.5-15 15 2 2 15-15M7 4a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m10 10a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3"></path></svg></span> Modulo Floor<a class="headerlink" href="#modulo-floor" title="Permanent link">¶</a></h2>
-<p>Python modulo</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Modulo Gate" data-desc-position="bottom"><img alt="Modulo Gate" src="../../assets/diagrams/gates/Modulo_Gate.svg"></a></p>
+<p>This gate extracts the remainder of a division equation.</p>
+<p>If your numbers are evenly subtractable, this gate will output
+zero. For example:</p>
+<ul>
+<li><span class="arithmatex">\(12 \div 4 = 3\)</span>, leaving no remainder.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Modulo Example 1" data-desc-position="bottom"><img alt="Modulo Example 1" src="../../assets/diagrams/gates/Modulo_Example_1.svg"></a></li>
+<li><span class="arithmatex">\(600 \div 10 = 60\)</span> leaving no remainder.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Modulo Example 2" data-desc-position="bottom"><img alt="Modulo Example 2" src="../../assets/diagrams/gates/Modulo_Example_2.svg"></a></li>
+</ul>
+<p>On the other hand, here's some
+examples of division that output non-zero values with Modulo:</p>
+<ul>
+<li><span class="arithmatex">\(24 \div 7 = 4\)</span> with a remainder of <span class="arithmatex">\(3\)</span>.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Modulo Example 3" data-desc-position="bottom"><img alt="Modulo Example 3" src="../../assets/diagrams/gates/Modulo_Example_3.svg"></a></li>
+<li><span class="arithmatex">\(95 \div 15 = 6\)</span> with a remainder of <span class="arithmatex">\(5\)</span>.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Modulo Example 4" data-desc-position="bottom"><img alt="Modulo Example 4" src="../../assets/diagrams/gates/Modulo_Example_4.svg"></a></li>
+</ul>
+<h3 id="modulo-floor">Modulo (Floor)<a class="headerlink" href="#modulo-floor" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Modulo Floor Gate" data-desc-position="bottom"><img alt="Modulo Floor Gate" src="../../assets/diagrams/gates/Modulo_Floor_Gate.svg"></a></p>
+<p>Does the same as the Modulo gate but floors the value down
+to an integer. Described as the equivalent of Python's modulo.</p>
+<ul>
+<li><span class="arithmatex">\(17.6 \div 5 = 3\)</span> with a remainder of <span class="arithmatex">\(2.6\)</span>,
+floored down to <span class="arithmatex">\(2\)</span>.<br>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-title="Modulo with Floor" data-desc-position="bottom"><img alt="Modulo with Floor" src="../../assets/diagrams/gates/Modulo_Floor_Example.svg"></a></li>
+</ul>
 
 
 
@@ -1025,7 +1214,7 @@ gates over <em>Multiply</em> gates are preferred.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 27, 2025 13:10:54 UTC"><span class="timeago" datetime="2025-10-27T13:10:54+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 27, 2025 13:10:54 UTC">2025-10-27</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 31, 2025 12:13:50 UTC"><span class="timeago" datetime="2025-10-31T12:13:50+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 31, 2025 12:13:50 UTC">2025-10-31</span>
   </span>
 
     
@@ -1195,7 +1384,7 @@ gates over <em>Multiply</em> gates are preferred.</p>
       
         <script src="../../javascripts/mathjax.js"></script>
       
-        <script src="../../assets/external/unpkg.com/mathjax@4/tex-mml-chtml.js"></script>
+        <script src="../../https:/unpkg.com/mathjax@4/tex-mml-chtml.js"></script>
       
         <script src="../../javascripts/tablesort.js"></script>
       
