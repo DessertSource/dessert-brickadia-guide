@@ -8,14 +8,6 @@ These gates are based on real-world mathematics. You will need ample knowledge t
 use these gates itself, so it is recommended you recap or read on real-world mathematics
 fundamentals.
 
-!!! note
-
-    If you often struggle with mathematics or have
-    [dyscalculia](https://en.wikipedia.org/wiki/Dyscalculia),
-    these gates may not be suitable for your usage. In this case, you
-    might want to ask for the help of someone else to guide you through
-    these gates.
-
 ## :material-plus-thick: Add
 
 ![Add Gate](../../assets/diagrams/gates/Add_Gate.svg)
@@ -117,14 +109,139 @@ gates over *Multiply* gates are preferred.
 
 ## :material-chart-bell-curve-cumulative: Blend
 
-This gate is based on linear interpolation (alternatively called a Lerp).
+![Blend Gate](../../assets/diagrams/gates/Blend_Gate.svg)
 
-The linear interpolation formula:
+To simplify this down with a brief explanation: this gate is commonly
+used to:
+
+* Select a set of numbers based on an
+[:material-decimal-increase: **Float value**](){.float}.
+* Output two numbers depending on a
+[:material-sort-bool-ascending: **Boolean value**](){.bool}.
+
+This gate is based on linear interpolation
+(alternatively called a Lerp in computer terms).
+
+### Formula
+
+We will show the linear original interpolation formula:
 
 $$y = y_{0} + (x-x_{0})\frac{y_{1}-y_{0}}{x_{1}-x_{0}}$$
 
+This gate uses the same formula, but swaps out the variables
+for the inputs' values:
+
+$$\text{Output} = \text{Input A} + (\text{Blend Value}-0)\frac{\text{Input B}-{\text{Input A}}}{1-0}$$
+
+To cut down on redundancy, we will simplify the formula down to this:
+
+$$\text{Output} = \text{A} + (\text{Blend Value})(\text{B}-{\text{A}})$$
+
+### Examples
+
+=== "Boolean value as blend value"
+
+    A Boolean value can only either be 0 (false) or 1 (true),
+    which makes it a perfect candidate if you just want to use
+    the Blend gate to make a switch output between two custom
+    values.
+
+    Given *Input A* is **10** and *Input B* is **20**:
+
+    * If *Blend Value* is **False**,
+    the Blend gate outputs **10**.
+    ![Example of blend gate with a False boolean value](../../assets/diagrams/gates/Blend_Bool_False.svg)
+    * If *Blend Value* is **True**,
+    the Blend gate outputs **20**.
+    ![Example of blend gate with a True boolean value](../../assets/diagrams/gates/Blend_Bool_True.svg)
+
+=== "Float value as blend value"
+
+    Since this warrants the use of the equation above,
+    we will use it to demonstrate how the Blend Gate outputs
+    a value.
+
+    ![Example of blend gate with its output hidden](../../assets/diagrams/gates/Blend_Float_Unrevealed.svg)
+
+    Given input A is **50** and input B is **80**, and
+    the blend value is **0.37**:
+
+    First, we subtract 80 ($\text{B}$)
+    by 50 ($\text{A}$). 30 is the result.
+
+    $$\text{Output} = 50 + (0.37)(80-50)$$
+
+    Multiply the blend value with the result of
+    $(\text{B}-\text{A})$. The result is 11.1.
+
+    $$\text{Output} = 50 + (0.37)(30)$$
+
+    Finally, get the sum of Input A and the result of
+    $(\text{Blend Value})(\text{B}-\text{A})$.
+
+    $$\text{Output} = 50 + 11.1$$
+
+    You have the gate's final output.
+
+    $$\text{Output} = 61.1$$
+
+    ![Example of blend gate with a float blend value](../../assets/diagrams/gates/Blend_Float_Result.svg)
+
+## Ceil
+
+![Ceil Gate](../../assets/diagrams/gates/Ceil_Gate.svg)
+
+This gate rounds an float value up to the higher integer equivalent.
+
+Two examples of Ceil:
+
+* If the input is **5.06**, it is rounded up to the integer of **6**.<br>
+![5.06 being rounded up using a Ceil gate](../../assets/diagrams/gates/Ceil_Example_1.svg)
+* If the input is **8.83**, it is rounded up to the integer of **9**.<br>
+![8.83 being rounded up using a Ceil gate](../../assets/diagrams/gates/Ceil_Example_2.svg)
+
+## Floor
+
+![Floor Gate](../../assets/diagrams/gates/Floor_Gate.svg)
+
+This gate rounds an float value down to the lower integer equivalent.
+
+Two examples of Floor:
+
+* If the input is **2.46**, it is rounded down to the integer of **2**.<br>
+![2.46 being rounded down using a Floor gate](../../assets/diagrams/gates/Floor_Example_1.svg)
+* If the input is **3.71**, it is rounded down to the integer of **3**.<br>
+![3.71 being rounded down using a Floor gate](../../assets/diagrams/gates/Floor_Example_2.svg)
+
 ## :material-percent: Modulo
 
-## :material-percent: Modulo Floor
+![Modulo Gate](../../assets/diagrams/gates/Modulo_Gate.svg)
 
-Python modulo
+This gate extracts the remainder of a division equation.
+
+If your numbers are evenly subtractable, this gate will output
+zero. For example:
+
+* $12 \div 4 = 3$, leaving no remainder.<br>
+![Modulo Example 1](../../assets/diagrams/gates/Modulo_Example_1.svg)
+* $600 \div 10 = 60$ leaving no remainder.<br>
+![Modulo Example 2](../../assets/diagrams/gates/Modulo_Example_2.svg)
+
+On the other hand, here's some
+examples of division that output non-zero values with Modulo:
+
+* $24 \div 7 = 4$ with a remainder of $3$.<br>
+![Modulo Example 3](../../assets/diagrams/gates/Modulo_Example_3.svg)
+* $95 \div 15 = 6$ with a remainder of $5$.<br>
+![Modulo Example 4](../../assets/diagrams/gates/Modulo_Example_4.svg)
+
+### Modulo (Floor)
+
+![Modulo Floor Gate](../../assets/diagrams/gates/Modulo_Floor_Gate.svg)
+
+Does the same as the Modulo gate but floors the value down
+to an integer. Described as the equivalent of Python's modulo.
+
+* $17.6 \div 5 = 3$ with a remainder of $2.6$,
+floored down to $2$.<br>
+![Modulo with Floor](../../assets/diagrams/gates/Modulo_Floor_Example.svg)
