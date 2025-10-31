@@ -83,22 +83,6 @@ plugins:
       enabled: !ENV [CI, false]
   - offline
   - panzoom
-  - glightbox:
-      touchNavigation: true
-      loop: true
-      effect: none
-      slide_effect: none
-      width: auto
-      height: auto
-      zoomable: true
-      draggable: true
-      skip_classes:
-        - skip-lbox
-      auto_caption: true
-      caption_position: bottom
-      background: gray
-      shadow: true
-      manual: false
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
