@@ -28,6 +28,8 @@ jobs:
       - run: pip install "mkdocs-material[imaging]"
       - run: pip install "mkdocs-panzoom-plugin"
       - run: pip install "mkdocs-git-revision-date-localized-plugin"
+      - run: pip install "glightbox"
+      - run: pip install "mkdocs-print-site-plugin"
       - run: mkdocs gh-deploy --config-file guide/mkdocs.yml --force
  
   deploy_mkdocs:
