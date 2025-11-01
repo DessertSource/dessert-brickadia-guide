@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/index.html</loc>
+         <loc>https://dessertsource.github.io/dessert-brickadia-guide/</loc>
          <lastmod>2025-11-01</lastmod>
     </url>
     <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/FAQ/general.html</loc>
+         <loc>https://dessertsource.github.io/dessert-brickadia-guide/FAQ/general/</loc>
          <lastmod>2025-11-01</lastmod>
     </url>
     <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Buffers.html</loc>
+         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Logic/</loc>
          <lastmod>2025-11-01</lastmod>
     </url>
     <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Conditional.html</loc>
-         <lastmod>2025-11-01</lastmod>
-    </url>
-    <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Logic.html</loc>
-         <lastmod>2025-11-01</lastmod>
-    </url>
-    <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Math.html</loc>
-         <lastmod>2025-11-01</lastmod>
-    </url>
-    <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Variables.html</loc>
+         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Math/</loc>
          <lastmod>2025-11-01</lastmod>
     </url>
 </urlset>
