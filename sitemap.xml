@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dessertsource.github.io/dessert-brickadia-guide/index.html</loc>
-         <lastmod>2025-10-31</lastmod>
+         <lastmod>2025-11-01</lastmod>
     </url>
     <url>
          <loc>https://dessertsource.github.io/dessert-brickadia-guide/FAQ/general.html</loc>
-         <lastmod>2025-10-31</lastmod>
+         <lastmod>2025-11-01</lastmod>
     </url>
     <url>
-         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Buffer.html</loc>
-         <lastmod>2025-10-31</lastmod>
+         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Buffers.html</loc>
+         <lastmod>2025-11-01</lastmod>
     </url>
     <url>
          <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Conditional.html</loc>
-         <lastmod>2025-10-31</lastmod>
+         <lastmod>2025-11-01</lastmod>
     </url>
     <url>
          <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Logic.html</loc>
-         <lastmod>2025-10-31</lastmod>
+         <lastmod>2025-11-01</lastmod>
     </url>
     <url>
          <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Math.html</loc>
-         <lastmod>2025-10-31</lastmod>
+         <lastmod>2025-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dessertsource.github.io/dessert-brickadia-guide/Wires/Gates/Variables.html</loc>
+         <lastmod>2025-11-01</lastmod>
     </url>
 </urlset>
