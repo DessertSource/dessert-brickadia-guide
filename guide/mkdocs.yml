@@ -58,6 +58,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to system preference
+    
+  custom_dir: docs/assets/overrides
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -98,16 +100,14 @@ plugins:
       shadow: true
       manual: false
   - print-site:
-      add_to_navigation: true
+      add_to_navigation: false
       print_page_title: 'Print Site'
       print_page_basename: 'print_page'
       add_print_site_banner: true
       # Table of contents
-      add_table_of_contents: true
-      toc_title: 'Table of Contents'
-      toc_depth: 6
+      add_table_of_contents: False
       # Content-related
-      add_full_urls: true
+      add_full_urls: false
       enumerate_headings: false
       enumerate_figures: false
       add_cover_page: true
