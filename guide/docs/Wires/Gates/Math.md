@@ -239,8 +239,8 @@ examples of division that output non-zero values with Modulo:
 
 ![Modulo Floor Gate](../../assets/diagrams/wires/gates/math/Modulo_Floor_Gate.svg)
 
-Does the same as the Modulo gate but floors the value down
-to an integer. Described as the equivalent of Python's modulo.
+Does the same as the Modulo gate but rounds the value down
+to an equivalent lower integer.
 
 * $17.6 \div 5 = 3$ with a remainder of $2.6$,
 floored down to $2$.<br>

@@ -7,9 +7,6 @@ site_description: >-
 repo_url: https://github.com/dessertsource/dessert-brickadia-guide
 repo_name: dessert-brickadia-guide
 
-watch:
-  - overrides
-
 copyright: >
   Copyright &copy; 2025 DessertSource –
   <a href="#__consent">Change cookie settings</a>
@@ -39,8 +36,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
     annotation: material/plus-circle-outline
-
-  custom_dir: overrides
   
   palette:
 
@@ -52,6 +47,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
+      primary: grey
       scheme: default
       toggle:
         icon: material/weather-sunny
@@ -59,18 +55,19 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: black
       scheme: slate
       toggle:
         icon: material/weather-night
         name: Switch to system preference
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - assets/javascripts/mathjax.js
   - https://unpkg.com/mathjax@4/tex-mml-chtml.js
-  - javascripts/tablesort.js
+  - assets/javascripts/tablesort.js
   - https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js
 
 plugins:
@@ -104,7 +101,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
-          - overrides/.icons
+          - assets/icons
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -137,9 +134,3 @@ extra:
       - manage 
 
   scope: /brickadia-guide/
-
-#  social:
-
-#    - icon: community/neocities
-#      link: https://dessertsource.neocities.org/
-#      name: My personal Neocities website
