@@ -93,19 +93,37 @@
     </div>
     
     
-      
+      <!-- Determine classes -->
 
+
+
+<!-- Header -->
 <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/dessert-brickadia-guide/." title="Dessert&#39;s Brickadia Guide" class="md-header__button md-logo" aria-label="Dessert's Brickadia Guide" data-md-component="logo">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="Header"
+  >
+
+    <!-- Link to home -->
+    <a
+      href="/dessert-brickadia-guide/."
+      title="Dessert&#39;s Brickadia Guide"
+      class="md-header__button md-logo"
+      aria-label="Dessert's Brickadia Guide"
+      data-md-component="logo"
+    >
       
   <img src="/dessert-brickadia-guide/assets/logo.svg" alt="logo">
 
     </a>
+
+    <!-- Button to open drawer -->
     <label class="md-header__button md-icon" for="__drawer">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
+
+    <!-- Header title -->
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
@@ -122,6 +140,11 @@
         </div>
       </div>
     </div>
+
+    <!-- Added by Dessert: Print button -->
+    
+
+    <!-- Color palette toggle -->
     
       
         <form class="md-header__option" data-md-component="palette">
@@ -159,17 +182,27 @@
 </form>
       
     
+
+    <!-- User preference: color palette -->
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
+
+    <!-- Site language selector -->
     
+
+    <!-- Button to open search modal -->
     
       
+
+      <!-- Check if search is actually enabled - see https://t.ly/DT_0V -->
       
         <label class="md-header__button md-icon" for="__search">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         </label>
+
+        <!-- Search interface -->
         <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -206,6 +239,8 @@
 </div>
       
     
+
+    <!-- Repository information -->
     
       <div class="md-header__source">
         <a href="https://github.com/dessertsource/dessert-brickadia-guide" title="Go to repository" class="md-source" data-md-component="source">
@@ -220,6 +255,8 @@
       </div>
     
   </nav>
+
+  <!-- Navigation tabs (sticky) -->
   
 </header>
     
@@ -299,25 +336,6 @@
   
 
     
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="/dessert-brickadia-guide/print_page/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Print Site
-
-      </a>
-    </li>
   
 
       
@@ -609,28 +627,6 @@
           </ul>
         </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="/dessert-brickadia-guide/print_page/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Print Site
-    
-  </span>
-  
-
-      </a>
     </li>
   
 

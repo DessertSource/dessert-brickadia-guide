@@ -6,11 +6,15 @@
 
 */
 
+/* Admonition customization
+
 .md-typeset .admonition,
 .md-typeset details {
   border-width: 1px;
   border-left-width: 4px;
 }
+
+*/
 
 /* Font thickness */
 
