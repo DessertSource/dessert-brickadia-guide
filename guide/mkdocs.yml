@@ -21,6 +21,8 @@ theme:
     text: Inter
 
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.expand
@@ -78,8 +80,6 @@ plugins:
         font_family: Inter
   - privacy:
       enabled: !ENV [CI, false]
-  - offline:
-      enabled: !ENV [OFFLINE, false]
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
