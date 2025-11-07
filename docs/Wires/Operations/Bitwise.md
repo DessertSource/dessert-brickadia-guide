@@ -2,7 +2,6 @@
 icon: material/cube-unfolded
 tags:
     - Gates
-    - Complex
 ---
 
 # Bitwise

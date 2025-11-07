@@ -59,10 +59,6 @@ features = [
     "content.footnote.tooltips",
     "content.tooltips",
 
-    "navigation.instant",
-    "navigation.instant.prefetch",
-    "navigation.instant.progress",
-
     "navigation.expand",
     "navigation.footer",
     "navigation.indexes",
@@ -75,6 +71,9 @@ features = [
 
     "toc.follow"
 ]
+
+[project.plugins.offline]
+enabled = true
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
