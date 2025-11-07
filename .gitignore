@@ -1,5 +1,5 @@
 site/
 trace.json
 .cache/
-stash/``
+stash/
 .venv/
