@@ -40,7 +40,7 @@ extra_javascript = [
     "assets/javascripts/mathjax.js",
     "assets/javascripts/tablesort.js",
     "https://unpkg.com/mathjax@4/tex-mml-chtml.js",
-    "https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js"
+    "https://unpkg.com/tablesort@5/dist/tablesort.min.js"
 ]
 
 [project.theme]
@@ -58,6 +58,10 @@ features = [
     "content.code.select",
     "content.footnote.tooltips",
     "content.tooltips",
+
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.instant.progress",
 
     "navigation.expand",
     "navigation.footer",
