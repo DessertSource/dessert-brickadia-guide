@@ -1,0 +1,188 @@
+/* Admonition customization */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 1px;
+  border-left-width: 4px;
+}
+
+/* Print site banner */
+
+#print-site-banner {
+    background-color: #448aff1a;
+    border: .075rem solid #448aff;
+    border-radius: .2rem;
+    box-shadow: var(--md-shadow-z1);
+}
+
+/* Font thickness */
+
+.md-typeset h1 {
+    font-weight: 600;
+}
+
+.md-typeset h2 {
+    font-weight: 600;
+}
+
+.md-typeset h3 {
+    font-weight: 600;
+}
+
+/* Universal block link values */
+.block-link {
+    border-radius: 0.2em;
+    padding: 0.4em;
+}
+
+/* Labels with admonition colors */
+.label-note {
+    font-size: .64rem;
+    border: .075rem solid #448aff;
+    background-color: #448aff1a;
+    border-radius: 0.2em;
+    padding: 0.4em;
+    box-shadow: var(--md-shadow-z1);
+}
+
+.label-warning {
+    font-size: .64rem;
+    border: .075rem solid #ff9100;
+    background-color: #ff91001a;
+    border-radius: 0.2em;
+    padding: 0.4em;
+    box-shadow: var(--md-shadow-z1);
+}
+
+.label-danger {
+    font-size: .64rem;
+    border: .075rem solid #ff1744;
+    background-color: #ff17441a;
+    border-radius: 0.2em;
+    padding: 0.4em;
+    box-shadow: var(--md-shadow-z1);
+}
+
+.label-quote {
+    font-size: .64rem;
+    border: .075rem solid #9e9e9e;
+    background-color: #9e9e9e1a;
+    border-radius: 0.2em;
+    padding: 0.4em;
+    box-shadow: var(--md-shadow-z1);
+}
+
+/* Theme Data */
+
+[data-md-color-scheme="default"] {
+
+    /* Block link */
+
+    .block-link {
+        color: #FFFFFF;
+        background-color: #4051b5;
+    }
+
+    .block-link:hover {
+        color: #FFFFFF;
+        background-color: #526CFE;
+    }
+
+    /* Blend color for mermaid zoom plugin */
+
+    --md-mermaid-label-bg-color: #f5f5f5;
+    
+    /* Variable colors */
+    /* bool links */
+
+    .bool {
+        color: #af2732;
+    }   
+    .bool:hover {
+        color: #eb354d;
+    }
+    
+    /* integer links */
+    
+    .int {
+        color: #1b6e83;
+    }
+    .int:hover {
+        color: #28a0be;
+    }
+    
+    /* integer links */
+    
+    .float {
+        color: #1d8722;
+    }
+    .float:hover {
+        color: #2fca37;
+    }
+    
+    /* string links */
+    
+    .str {
+        color: #AF5E27;
+    }
+    .str:hover {
+        color: #eb7e35;
+    }
+
+}
+
+[data-md-color-scheme="slate"] {
+
+    /* Block link */
+
+    .block-link {
+        color: #FFFFFF;
+        background-color: #4051b5;
+    }
+
+    .block-link:hover {
+        color: #FFFFFF;
+        background-color: #526CFE;
+    }
+
+    /* Blend color for mermaid zoom plugin */
+
+    --md-mermaid-label-bg-color: #272a35;
+    
+    /* bool links */
+
+    .bool {
+        color: #e94f5c;
+    }
+    .bool:hover {
+        color: #cf3c50;
+    }
+    
+    /* integer links */
+    
+    .int {
+        color: #2db1c2;
+    }
+    .int:hover {
+        color: #359aac;
+    }
+    
+    /* integer links */
+    
+    .float {
+        color: #40c740;
+    }
+    .float:hover {
+        color: #2c9435;
+    }
+    
+    /* string links */
+    
+    .str {
+        color: #e09237;
+    }
+    .str:hover {
+        color: #c57432;
+    }
+
+}

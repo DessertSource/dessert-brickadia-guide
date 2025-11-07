@@ -1,0 +1,98 @@
+[project]
+
+site_name = "Dessert's Brickadia Guide"
+site_description = "A comprehensive guide for the game Brickadia"
+site_author = "DessertSource"
+site_url = "https://dessertsource.github.io/brickadia-guide"
+
+copyright = "Copyright &copy; 2025 DessertSource"
+
+nav = [
+    {"Home" = [
+        "Home/index.md"
+    ]},
+    {"Wires" = [
+        "Wires/index.md",
+        { "Operations" = [
+            "Wires/Operations/index.md",
+            { "Conditional" = "Wires/Operations/Conditional.md" },
+            { "Logic" = "Wires/Operations/Logic.md" },
+            { "Math" = "Wires/Operations/Math.md" },
+            { "Bitwise" = "Wires/Operations/Bitwise.md" },
+            { "Control Flow" = "Wires/Operations/Control_Flow.md" }
+        ]},
+        { "Variables" = [
+            "Wires/Variables/index.md",
+            { "Adding Variables" = "Wires/Variables/Adding_Variables.md" },
+            { "Getting Variables" = "Wires/Variables/Getting_Variables.md" },
+            { "Modifying Variables" = "Wires/Variables/Modifying_Variables.md" }
+        ]},
+        { "Entities" = [
+            "Wires/Entities/index.md",
+            { "Brick Grids" = "Wires/Entities/Brick_Grids.md" }
+        ]},
+    ]}
+]
+
+extra_css = ["assets/stylesheets/extra.css"]
+
+extra_javascript = [
+    "assets/javascripts/mathjax.js",
+    "assets/javascripts/tablesort.js",
+    "https://unpkg.com/mathjax@4/tex-mml-chtml.js",
+    "https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js"
+]
+
+[project.theme]
+
+variant = "modern"
+
+logo = "assets/logo.svg"
+favicon = "assets/favicon.svg"
+
+language = "en"
+
+features = [
+    "content.code.annotate",
+    "content.code.copy",
+    "content.code.select",
+    "content.footnote.tooltips",
+    "content.tooltips",
+
+    "navigation.expand",
+    "navigation.footer",
+    "navigation.indexes",
+    "navigation.path",
+    "navigation.tabs",
+    "navigation.top",
+    "navigation.tracking",
+
+    "search.highlight",
+
+    "toc.follow"
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.theme.font]
+text = "Inter"
+code = "Roboto Mono"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/DessertSource/dessert-brickadia-guide"

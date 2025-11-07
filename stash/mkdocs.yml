@@ -1,0 +1,141 @@
+site_name: Dessert's Guide
+site_url: https://dessertsource.github.io/dessert-brickadia-guide
+site_author: DessertSource
+site_description: >-
+  A manual for Brickadia by DessertSource
+
+copyright: >
+  Copyright &copy; 2025 DessertSource
+  <a href="#__consent">(Change cookie settings)</a>
+
+nav:
+  - Home:
+    - Home/index.md
+  - Wires:
+    - Wires/index.md
+    - Operations:
+      - Wires/Operations/index.md
+      - Conditional: Wires/Operations/Conditional.md
+      - Logic: Wires/Operations/Logic.md
+      - Math: Wires/Operations/Math.md
+      - Bitwise: Wires/Operations/Bitwise.md
+      - Control Flow: Wires/Operations/Control_Flow.md
+    - Variables:
+      - Wires/Variables/index.md
+      - Adding Variables: Wires/Variables/Adding_Variables.md
+      - Getting Variables: Wires/Variables/Getting_Variables.md
+      - Modifying Variables: Wires/Variables/Modifying_Variables.md
+    - Entities:
+      - Wires/Entities/index.md
+      - Grids: Wires/Entities/Grids.md
+
+theme:
+
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+
+  variant: classic
+
+  font:
+    text: Inter
+
+  features:
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.tooltips
+    - content.code.annotate
+    - content.code.copy
+    - navigation.expand
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/plus-circle-outline
+  
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: grey
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@4/tex-mml-chtml.js
+  - assets/javascripts/tablesort.js
+  - https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js
+
+plugins:
+
+  - search
+  - tags
+  - social:
+      cards_layout_options:
+        font_family: Inter
+  - privacy:
+      enabled: !ENV [CI, false]
+  - offline:
+      enabled: !ENV [OFFLINE, false]
+
+markdown_extensions:
+
+  - abbr
+  - admonition
+  - toc:
+      permalink: true
+      title: On this page
+      toc_depth: 0-3
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - assets/icons
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - tables
+  - pymdownx.keys
+  - pymdownx.snippets
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
