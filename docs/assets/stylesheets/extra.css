@@ -1,3 +1,97 @@
+/* Theme Data */
+
+[data-md-color-scheme="default"] {
+
+    .bool {
+        color: #af2732;
+    }   
+    .bool:hover {
+        color: #eb354d;
+    }
+
+    .int {
+        color: #1b8360;
+    }
+    .int:hover {
+        color: #28be80;
+    }
+
+    .float {
+        color: #1d8722;
+    }
+    .float:hover {
+        color: #2fca37;
+    }
+
+    .str {
+        color: #AF5E27;
+    }
+    .str:hover {
+        color: #eb7e35;
+    }
+
+    .ent {
+        color: #1f92a1;
+    }
+    .ent:hover {
+        color: #3bbaca;
+    }
+
+    .exec {
+        color: #000000;
+    }
+    .exec:hover {
+        color: #4e4e4e;
+    }
+
+}
+
+[data-md-color-scheme="slate"] {
+
+    .bool {
+        color: #e94f5c;
+    }
+    .bool:hover {
+        color: #cf3c50;
+    }
+ 
+    .int {
+        color: #2dc290;
+    }
+    .int:hover {
+        color: #35ac8e;
+    }
+
+    .float {
+        color: #40c740;
+    }
+    .float:hover {
+        color: #2c9435;
+    }
+
+    .str {
+        color: #e09237;
+    }
+    .str:hover {
+        color: #c57432;
+    }
+
+    .ent {
+        color: #3dc3d4;
+    }
+    .ent:hover {
+        color: #3197a5;
+    }
+
+    .exec {
+        color: #ffffff;
+    }
+    .exec:hover {
+        color: #cfcfcf;
+    }
+
+}
+
 /* Admonition customization */
 
 .md-typeset .admonition.note {
@@ -48,85 +142,18 @@
     border: .075rem solid #9e9e9eb0;
 }
 
-/* Theme Data */
+/* Components */
 
-[data-md-color-scheme="default"] {
-
-    /* Variable colors */
-    /* bool links */
-
-    .bool {
-        color: #af2732;
-    }   
-    .bool:hover {
-        color: #eb354d;
-    }
-    
-    /* integer links */
-    
-    .int {
-        color: #1b6e83;
-    }
-    .int:hover {
-        color: #28a0be;
-    }
-    
-    /* integer links */
-    
-    .float {
-        color: #1d8722;
-    }
-    .float:hover {
-        color: #2fca37;
-    }
-    
-    /* string links */
-    
-    .str {
-        color: #AF5E27;
-    }
-    .str:hover {
-        color: #eb7e35;
-    }
-
+@font-face {
+  font-family: Glacial Indifference Bold;
+  src: url(GlacialIndifference-Bold.otf);
 }
 
-[data-md-color-scheme="slate"] {
-
-    /* bool links */
-
-    .bool {
-        color: #e94f5c;
-    }
-    .bool:hover {
-        color: #cf3c50;
-    }
-    
-    /* integer links */
-    
-    .int {
-        color: #2db1c2;
-    }
-    .int:hover {
-        color: #359aac;
-    }
-    
-    /* integer links */
-    
-    .float {
-        color: #40c740;
-    }
-    .float:hover {
-        color: #2c9435;
-    }
-    
-    /* string links */
-    
-    .str {
-        color: #e09237;
-    }
-    .str:hover {
-        color: #c57432;
-    }
-
+.comp {
+    font-family: "Glacial Indifference", serif;
+    background-color: #162741;
+    color: #9DBAD4;
+    font-size: 1rem;
+    padding: .6rem;
+    border-radius: 0.75rem;
 }

@@ -1,6 +1,6 @@
 [project]
 
-site_name = "Dessert's Brickadia Guide"
+site_name = "Dessert's Guide"
 site_description = "A comprehensive guide for the game Brickadia"
 site_author = "DessertSource"
 site_url = "https://dessertsource.github.io/dessert-brickadia-guide"
@@ -24,7 +24,7 @@ nav = [
         { "Variables" = [
             "Wires/Variables/index.md",
             { "Adding Variables" = "Wires/Variables/Adding_Variables.md" },
-            { "Getting Variables" = "Wires/Variables/Getting_Variables.md" },
+            { "Referencing Variables" = "Wires/Variables/Referencing_Variables.md" },
             { "Modifying Variables" = "Wires/Variables/Modifying_Variables.md" }
         ]},
         { "Entities" = [
