@@ -44,6 +44,10 @@
         color: #4e4e4e;
     }
 
+    .glo {
+    background-color: #F2F2F2;
+    }
+
 }
 
 [data-md-color-scheme="slate"] {
@@ -150,7 +154,7 @@
 }
 
 .comp {
-    font-family: "Glacial Indifference", serif;
+    font-family: "Glacial Indifference", sans-serif;
     background-color: #162741;
     color: #9DBAD4;
     font-size: 1rem;

@@ -1,10 +1,12 @@
 ---
-icon: material/content-save-plus-outline
+icon: material/clipboard-plus-outline
 tags:
-    - Wires
+    - Gates
 ---
 
-# Adding Variables
+# Adding & getting variables
+
+## Variable Gate
 
 In the context of Brickadia's wires, variables are circular gate bricks
 storing values that can be accessed or modified from anywhere at any time.
@@ -14,8 +16,6 @@ and organization capabilities.
 By default, gates do not need variables and you can use the Applicator to
 determine their input values instead. It is recommended to use variables
 where applicable.
-
-## Variable Gate
 
 The Variable gate is a gate shaped like a cylinder found in the Catalog
 under the Bricks tab, in the "*Wires - Exec*" category and under the
@@ -36,7 +36,7 @@ Outputs the variable's value in *real time*.
 Visible even without the Wire Tool equipped.
 **Use this output if part of your circuit(s) rely on certain variables.**
 
-## Variable configuration
+### Configuration
 
 Configuring your variable gate bricks requires the use of the
 [Applicator](). When you click on a Variable gate with the *Applicator*,
@@ -64,3 +64,20 @@ Known as *"True/False"* in Applicator menu.
 Known as *"Object"* in Applicator menu.
 Entities include brick grids, players or bots.
 * [:material-arrow-expand-right: Exec](){.exec}
+
+## Get Gate
+
+The Get gate serves as a remote to fetch a value from a variable
+upon being given an [Exec](){.exec} wire pulse.
+
+## Inputs
+
+* **:material-export: Exec** *(mandatory)*
+* **:material-variable: Variable Reference** *(mandatory)*
+
+## Outputs
+
+* **:material-variable: Variable Reference**<br>
+Outputs the current value of a referenced variable.
+* **:material-export: Exec**<br>
+Sends another Exec wire pulse for triggering other Exec-compatible gates.

@@ -8,10 +8,11 @@ site_url = "https://dessertsource.github.io/dessert-brickadia-guide"
 copyright = "Copyright &copy; 2025 DessertSource"
 
 nav = [
-    {"Home" = [
+    { "Home" = [
         "Home/index.md"
     ]},
-    {"Wires" = [
+
+    { "Wires" = [
         "Wires/index.md",
         { "Operations" = [
             "Wires/Operations/index.md",
@@ -23,14 +24,20 @@ nav = [
         ]},
         { "Variables" = [
             "Wires/Variables/index.md",
-            { "Adding Variables" = "Wires/Variables/Adding_Variables.md" },
-            { "Referencing Variables" = "Wires/Variables/Referencing_Variables.md" },
-            { "Modifying Variables" = "Wires/Variables/Modifying_Variables.md" }
+            { "Adding & getting variables" = "Wires/Variables/Adding.md" },
+            { "Modifying variables" = "Wires/Variables/Modifying.md" }
         ]},
         { "Entities" = [
             "Wires/Entities/index.md",
             { "Brick Grids" = "Wires/Entities/Brick_Grids.md" }
         ]},
+    ]},
+
+    { "Glossary" = [
+        "Glossary/index.md",
+        { "Entities" = "Glossary/Entities.md" },
+        { "Value Types" = "Glossary/Value_Types.md" },
+        { "Permissions" = "Glossary/Permissions.md" }
     ]}
 ]
 

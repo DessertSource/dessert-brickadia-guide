@@ -1,5 +1,7 @@
 ---
 icon: material/alpha-v-circle-outline
+tags:
+    - Gates
 ---
 
 # Variables
