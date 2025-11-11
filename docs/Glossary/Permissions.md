@@ -13,8 +13,7 @@ There are three states for each individual permission in Brickadia:
 
 !!! Note
 
-    These permission tags are here for reference, they are last
-    minute additions without UX polish. They are used for the
+    These permission tags are here for reference. They are used for the
     Set Player Permission gate.
 
 ## Always Leave Minigame
