@@ -37,7 +37,8 @@ nav = [
         "Glossary/index.md",
         { "Entities" = "Glossary/Entities.md" },
         { "Value Types" = "Glossary/Value_Types.md" },
-        { "Permissions" = "Glossary/Permissions.md" }
+        { "Permissions" = "Glossary/Permissions.md" },
+        { "Chat Commands" = "Glossary/Chat_Commands.md" }        
     ]}
 ]
 

@@ -9,7 +9,7 @@ global brick grid. This is designed that way so certain things can
 move around or be transformed around the world while some of the things
 you build can stay static and not incur a performance cost.
 
-## **Character**{.glo}
+## **Character**
 
 A character refers to either a player or bot, as both of these
 share the same base mechanics of being able to move and use items.
@@ -35,7 +35,7 @@ table for game designers:
 | PvE (Player vs Enemies)             | :material-close: | :material-check: |
 | PvPvE (Player vs Player vs Enemies) | :material-check: | :material-check: |
 
-## **Brick Grid**{.glo}
+## **Brick Grid**
 
 A type of entity that can store the following:
 
@@ -46,7 +46,7 @@ A type of entity that can store the following:
 * Non-brick grid physics objects
 (when attached to joints in grid)
 
-## **Physics Object**{.glo}
+## **Physics Object**
 
 Physics objects like wheels and the ball that fall under
 non-Brick Grid entities. They cannot be wired to,
