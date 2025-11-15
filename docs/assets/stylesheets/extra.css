@@ -44,8 +44,98 @@
         color: #4e4e4e;
     }
 
-    .glo {
-    background-color: #F2F2F2;
+    /* mathjax elements */
+    
+    [aria-labeledby="mjx-help-label"] {
+        background-color: #FFFFFF8e;
+        backdrop-filter: blur(.4rem);
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+    }
+
+    mjx-help-dialog > div {
+        background-color: #FFFFFF8e;
+        color: #000000;
+        backdrop-filter: blur(.4rem);
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+        border-radius: .2rem;
+    }
+
+    mjx-help-dialog kbd {
+        background-color: #FFFFFF8e;
+        color: #000000;
+        backdrop-filter: blur(.4rem);
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+    }
+
+    .CtxtMenu_Info {
+        background-color: #FFFFFF;
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+    }
+    
+    .CtxtMenu_MousePost {
+        font-family: Inter, sans-serif;
+        background-color: #FFFFFF8e;
+        backdrop-filter: blur(.4rem);
+        color: #000;
+    }
+
+    .CtxtMenu_InfoContent {
+        font-family: Inter, sans-serif;
+        backdrop-filter: blur(.4rem);
+        background-color: #FFFFFF8e;
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+        border-radius: .2rem;
+        color: #000;
+    }
+
+    .CtxtMenu_InfoSignature > input {
+        background-color: #FFFFFF8e;
+        border: .075rem solid #8d8d8d40;
+        font-weight: bold;
+        border-radius: .1rem;
+    }
+
+    .CtxtMenu_InfoSignature > input:hover {
+        background-color: #88888840;
+    }
+
+    .CtxtMenu_Menu {
+        font-family: Inter, sans-serif;
+        color: #000;
+        box-shadow: none;
+        backdrop-filter: blur(.4rem);
+        background-color: #ffffff8e;
+        border: .075rem solid #a7a7a740;
+    }
+
+    .CtxtMenu_MenuActive .CtxtMenu_MenuArrow {
+    color:#000
+    }
+
+    .CtxtMenu_MenuActive {
+    background-color: #88888840;
+    color:#000
+    }
+
+    .CtxtMenu_MenuLabel:focus {
+        background-color: #88888840;
+    }
+
+    .CtxtMenu_MenuDisabled:focus {
+        background-color: #88888840;
+    }
+
+    .CtxtMenu_MenuRule {
+    border-top: .075rem solid #8d8d8d40;
+    }
+
+    .CtxtMenu_SliderValue {
+        color: #000;
     }
 
 }
@@ -92,6 +182,99 @@
     }
     .exec:hover {
         color: #cfcfcf;
+    }
+
+    /* mathjax elements */
+    
+    [aria-labeledby="mjx-help-label"] {
+        background-color: #0b0c0f8e;
+        backdrop-filter: blur(.4rem);
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+    }
+
+    mjx-help-dialog > div {
+        background-color: #0b0c0f8e;
+        color: #ffffff;
+        backdrop-filter: blur(.4rem);
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+        border-radius: .2rem;
+    }
+
+    mjx-help-dialog kbd {
+        background-color: #0b0c0f8e;
+        color: #ffffff;
+        backdrop-filter: blur(.4rem);
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+    }
+
+    .CtxtMenu_MenuClose span {
+        background-color: #00000000;
+    }
+
+    .CtxtMenu_Info {
+        background-color: #0B0C0F;
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+    }
+    
+    .CtxtMenu_MousePost {
+        font-family: Inter, sans-serif;
+        background-color: #0b0c0f8e;
+        backdrop-filter: blur(.4rem);
+        color: #FFFFFF;
+    }
+
+    .CtxtMenu_InfoContent {
+        font-family: Inter, sans-serif;
+        backdrop-filter: blur(.4rem);
+        background-color: #0b0c0f8e;
+        box-shadow: none;
+        border: .075rem solid #8d8d8d40;
+        border-radius: .2rem;
+        color: #FFFFFF;
+    }
+
+    .CtxtMenu_InfoSignature > input {
+        background-color: #0b0c0f8e;
+        border: .075rem solid #8d8d8d40;
+        font-weight: bold;
+        border-radius: .1rem;
+    }
+
+    .CtxtMenu_InfoSignature > input:hover {
+        background-color: #70707040;
+    }
+
+    .CtxtMenu_Menu {
+        font-family: Inter, sans-serif;
+        color: #FFFFFF;
+        box-shadow: none;
+        backdrop-filter: blur(.4rem);
+        background-color: #0b0c0f8e;
+        border: .075rem solid #8d8d8d40;
+    }
+
+    .CtxtMenu_MenuActive {
+    background-color: #70707040;
+    }
+
+    .CtxtMenu_MenuLabel:focus {
+        background-color: #70707040;
+    }
+
+    .CtxtMenu_MenuDisabled:focus {
+        background-color: #70707040;
+    }
+
+    .CtxtMenu_MenuRule {
+    border-top: .075rem solid #8d8d8d40;
+    }
+
+    .CtxtMenu_SliderValue {
+        color: #B5B7BC
     }
 
 }
