@@ -70,6 +70,22 @@
         border: .075rem solid #8d8d8d40;
     }
 
+    .MJX_LiveRegion_Show {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: .075rem solid #8d8d8d40 !important;
+        box-shadow: none !important;
+        border-radius: .1rem !important; 
+    }
+
+    .MJX_LiveRegion_Show > div {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: .075rem solid #8d8d8d40 !important;
+        box-shadow: none !important;
+        border-radius: .1rem !important;
+    }
+
     .CtxtMenu_Info {
         background-color: #FFFFFF;
         box-shadow: none;
@@ -208,6 +224,22 @@
         backdrop-filter: blur(.4rem);
         box-shadow: none;
         border: .075rem solid #8d8d8d40;
+    }
+
+    .MJX_LiveRegion_Show {
+        background-color: #0b0c0f !important;
+        color: #ffffff !important;
+        box-shadow: none !important;
+        border: .075rem solid #8d8d8d40 !important;
+        border-radius: .1rem !important; 
+    }
+
+    .MJX_LiveRegion_Show > div {
+        background-color: #0b0c0f !important;
+        color: #ffffff !important;
+        box-shadow: none !important;
+        border: .075rem solid #8d8d8d40 !important;
+        border-radius: .1rem !important;     
     }
 
     .CtxtMenu_MenuClose span {
