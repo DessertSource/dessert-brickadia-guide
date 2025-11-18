@@ -130,12 +130,12 @@
     }
 
     .CtxtMenu_MenuActive .CtxtMenu_MenuArrow {
-    color:#000
+        color:#000
     }
 
     .CtxtMenu_MenuActive {
-    background-color: #88888840;
-    color:#000
+        background-color: #88888840;
+        color:#000
     }
 
     .CtxtMenu_MenuLabel:focus {
@@ -290,7 +290,7 @@
     }
 
     .CtxtMenu_MenuActive {
-    background-color: #70707040;
+        background-color: #70707040;
     }
 
     .CtxtMenu_MenuLabel:focus {
@@ -302,7 +302,7 @@
     }
 
     .CtxtMenu_MenuRule {
-    border-top: .075rem solid #8d8d8d40;
+        border-top: .075rem solid #8d8d8d40;
     }
 
     .CtxtMenu_SliderValue {
@@ -359,20 +359,4 @@
 
 .md-typeset .admonition.quote {
     border: .075rem solid #9e9e9eb0;
-}
-
-/* Components */
-
-@font-face {
-  font-family: Glacial Indifference Bold;
-  src: url(GlacialIndifference-Bold.otf);
-}
-
-.comp {
-    font-family: "Glacial Indifference", sans-serif;
-    background-color: #162741;
-    color: #9DBAD4;
-    font-size: 1rem;
-    padding: .6rem;
-    border-radius: 0.75rem;
 }

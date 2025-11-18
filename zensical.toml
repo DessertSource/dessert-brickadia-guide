@@ -12,6 +12,11 @@ nav = [
         "Home/index.md"
     ]},
 
+    { "Building" = [
+        "Building/index.md",
+        { "Building Test Page" = "Building/Test-Page.md" }
+    ]},
+
     { "Wires" = [
         "Wires/index.md",
         { "Operations" = [
@@ -30,7 +35,15 @@ nav = [
         { "Entities" = [
             "Wires/Entities/index.md",
             { "Brick Grids" = "Wires/Entities/Brick_Grids.md" }
-        ]},
+        ]}
+    ]},
+
+    { "Server" = [
+        { "Set-up" = [
+            { "Basic Server Settings" = "Server/Basic-Settings.md" },
+            { "Advanced Server Settings" = "Server/Advanced-Settings.md" },
+            { "Permissions" = "Server/Permissions.md" }
+        ]}
     ]},
 
     { "Glossary" = [
