@@ -3,3 +3,4 @@ trace.json
 .cache/
 stash/
 .venv/
+.markdownlint.json

@@ -9,7 +9,7 @@ copyright = "Copyright &copy; 2025 DessertSource"
 
 nav = [
     { "Home" = [
-        "Home/index.md"
+        "index.md"
     ]},
 
     { "Building" = [
@@ -38,19 +38,20 @@ nav = [
         ]}
     ]},
 
-    { "Server" = [
-        { "Set-up" = [
-            { "Basic Server Settings" = "Server/Basic-Settings.md" },
-            { "Advanced Server Settings" = "Server/Advanced-Settings.md" },
-            { "Permissions" = "Server/Permissions.md" }
-        ]}
+    { "Servers" = [
+        { "Set-up / Edit Game" = [
+            { "Basic Server Settings" = "Servers/Set-up/Basic-Settings.md" },
+            { "Advanced Server Settings" = "Servers/Set-up/Advanced-Settings.md" },
+            { "Roles" = "Servers/Set-up/Roles.md" },
+            { "Permissions" = "Servers/Set-up/Permissions.md" }
+        ]},
+        { "External Files" = "Servers/External-Files.md" }
     ]},
 
     { "Glossary" = [
         "Glossary/index.md",
         { "Entities" = "Glossary/Entities.md" },
         { "Value Types" = "Glossary/Value_Types.md" },
-        { "Permissions" = "Glossary/Permissions.md" },
         { "Chat Commands" = "Glossary/Chat_Commands.md" },
         { "Console Commands" = "Glossary/Console_Commands.md" }
     ]}
@@ -121,3 +122,45 @@ code = "Roboto Mono"
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
 link = "https://github.com/DessertSource/dessert-brickadia-guide"
+
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.toc]
+title = "On this page"
+permalink =  true
+[project.markdown_extensions.toc.slugify]
+function = "pymdownx.slugs.slugify"
+kwds = {case = "lower"}
+[project.markdown_extensions.tables]
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.blocks.caption]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji" 
+emoji_generator = "zensical.extensions.emoji.to_svg"
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.snippets]
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+[project.markdown_extensions.pymdownx.smartsymbols]
+fractions = false
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tabbed.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower" }
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true

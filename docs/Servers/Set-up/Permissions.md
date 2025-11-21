@@ -1,5 +1,7 @@
 ---
-icon: material/shield-key-outline
+icon: lucide/shield-user
+tags:
+    - Server Management
 ---
 
 # Permissions
@@ -456,7 +458,7 @@ When the player uses the Selector, the Trust system will be bypassed.
 BR.Permission.Building.Selector.BypassTimeout
 ```
 
-Selector time out does not apply to player.
+Selector timeout does not apply to player.
 
 #### Preserve Ownership
 

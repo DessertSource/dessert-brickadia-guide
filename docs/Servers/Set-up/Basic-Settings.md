@@ -18,7 +18,7 @@ the master server between periods of time.
 
     The server name and description is subject to global moderation when
     running a *PUBLIC* server. Do not put anything in these boxes that are 
-    suggestive or offensive. While this won't ban you from playing the game,
+    offensive. While this won't ban you from playing the game,
     it may get your server blacklisted from the server browser.
 
     You may contact BrickBot on the official Discord if you are in doubt
@@ -72,22 +72,15 @@ to make your password:
 ...all at once. Leaving your password simple may leave your server
 password vulnerable to brute force in particular.
 
-!!! danger "And this has to be said..."
-
-    Please do not make this the same password you sign in with on any
-    other account. Make them all different if you have not done that.
-    Trust me, you will save a lot of time spent on getting support
-    to retrieve your accounts from exploits or [social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)).
-
 It is not required to follow these basic guidelines of making a
 password, but if you are creating a world that involves multiple people for
 playtesting purposes, it is recommended to do so.
 
 ## Server Type
 
-This is available when starting a game.
+*This is only available when starting a game.*
 
-There are three kinds of servers you can run in the game.
+There are three kinds of servers you can run in game:
 
 * :lucide-user: **Single Player:** Runs a single player session.
 * :lucide-user-plus: **Unlisted:** This will run a server, but it will not

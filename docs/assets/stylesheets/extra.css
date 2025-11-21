@@ -311,6 +311,28 @@
 
 }
 
+/* Small blocks */
+
+.info-link-mini {
+    background-color: var(--md-accent-fg-color--transparent);
+    text-decoration: none !important;
+    padding: 0.3rem;
+    border-radius: .4rem;
+}
+
+.info-mini {
+    background-color: var(--md-default-fg-color--lightest);
+    text-decoration: none !important;
+    padding: 0.3rem;
+    border-radius: .4rem;
+}
+
+/* Block quotes */
+
+.md-typeset blockquote {
+    background-color: var(--md-code-bg-color);
+}
+
 /* Admonition customization */
 
 .md-typeset .admonition.note {
