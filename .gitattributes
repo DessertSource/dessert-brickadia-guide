@@ -1,0 +1,2 @@
+docs/assets/media/** filter=lfs diff=lfs merge=lfs -text
+docs/assets/media/**/*.svg !filter !diff !merge text
