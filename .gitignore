@@ -1,0 +1,8 @@
+site/
+trace.json
+.cache/
+stash/
+.venv/
+.markdownlint.json
+__pycache__/
+docs/uncategorized
