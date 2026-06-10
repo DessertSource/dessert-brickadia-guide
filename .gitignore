@@ -6,3 +6,5 @@ stash/
 .markdownlint.json
 __pycache__/
 docs/uncategorized
+/lfs/
+.git/lfs/objects/logs/
