@@ -34,7 +34,8 @@ nav = [
             "essentials/chat/index.md",
             "essentials/chat/chat-formatting.md",
             "essentials/chat/chat-commands.md",
-        ]}
+        ]},
+        "essentials/emotes.md"
     ]},
 
     { "Wires" = [
