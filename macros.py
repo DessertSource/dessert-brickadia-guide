@@ -1,9 +1,5 @@
 def define_env(env):
-    # Variables are accessible as {{ version }} in templates
-    env.variables["version"] = "1.0"
 
-    # Macros
-    
     # Variable type display
     @env.macro
     def var_display(text, data_type) -> None:
@@ -54,3 +50,15 @@ def define_env(env):
             wire += symbol
 
         return f"**{wire}**{{.wire .{data_type} .{variant}}}"
+
+    # Video
+    @env.macro
+    def video(path, title):
+
+        video = f"{path}"
+        thumbnail = f"{path}"
+
+        html = (
+            f'<video controls preload="none" src="{path}.mp4" poster="{path}.jpg" title="{title}"></video>'
+        )
+        return html
