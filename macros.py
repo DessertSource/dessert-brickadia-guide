@@ -59,6 +59,9 @@ def define_env(env):
         thumbnail = f"{path}"
 
         html = (
-            f'<video controls preload="none" src="{path}.mp4" poster="{path}.jpg" title="{title}"></video>'
+            f'<video playsinline controls preload="none" src="{path}.mp4" poster="{path}.jpg" title="{title}">'
+            f'  <source src="{path}.mp4" type="video/mp4" size="1080">'
+            f'  <source src="{path}-540p.mp4" type="video/mp4" size="540">'
+            f'</video>'
         )
         return html

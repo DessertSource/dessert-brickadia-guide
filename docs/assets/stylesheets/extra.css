@@ -1,3 +1,11 @@
+/* Plyr */
+
+@import url('https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.min.css');
+
+:root {
+    --plyr-color-main: #526cfe;
+}
+
 /* Font face management */
 
     /* Inter */

@@ -13,7 +13,11 @@ copyright = """
 <a href="https://dessertsource.github.io/dessert-brickadia-guide/about/license.html">MIT license</a>
 """
 
-watch = ["macros.py"]
+watch = [
+    "macros.py",
+    "docs/assets/javascripts/",
+    "docs/assets/stylesheets/"
+]
 
 nav = [
 
@@ -50,14 +54,18 @@ nav = [
     ]}
 ]
 
-extra_css = ["assets/stylesheets/extra.css"]
+extra_css = [
+    "assets/stylesheets/extra.css",
+]
 
 extra_javascript = [
+    "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js",
+    "https://cdn.jsdelivr.net/npm/tablesort@5/dist/tablesort.min.js",
+    "https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.polyfilled.min.js",
     "assets/javascripts/mermaid.js",
     "assets/javascripts/mathjax.js",
-    "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js",
     "assets/javascripts/tablesort.js",
-    "https://cdn.jsdelivr.net/npm/tablesort@5/dist/tablesort.min.js"
+    "assets/javascripts/plyr.js"
 ]
 
 [project.theme.icon.tag]
