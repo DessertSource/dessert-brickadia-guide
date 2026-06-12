@@ -51,3 +51,12 @@ To toggle the view transition animation:
 2. Click the **:material-mailbox:{.button .item .dark-green} General**{.button .large} button to access the "General Options" menu.
 3. Look for the "Advanced Camera Settings" header. Find the "Disable Camera Mode Switch Animation" option under the same header.
 4. Toggle the option to your preferences.
+
+## Moving around the camera using the keyboard
+
+You can move around your view at fixed speeds by pressing one of the following keys:
+
+- ++up++ - Pitches the camera up.
+- ++down++ - Pitches the camera down.
+- ++left++ - Turns the camera to the left.
+- ++right++ - Turns the camera to the right.
