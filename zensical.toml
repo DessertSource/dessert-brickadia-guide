@@ -40,7 +40,8 @@ nav = [
             "essentials/chat/chat-commands.md",
         ]},
         "essentials/emotes.md",
-        "essentials/camera-tools.md"
+        "essentials/camera-tools.md",
+        "essentials/avatar-editor.md"
     ]},
 
     { "Wires" = [
