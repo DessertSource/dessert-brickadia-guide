@@ -25,6 +25,10 @@ Release ++h++ to cancel emotes.
 
 Emotes also automatically cancel when you use another emote.
 
+## Emote list
+
+An exhaustive list of emotes, ordered by clockwise position.
+
 <div class="grid cards" markdown>
 
 **Wave**
