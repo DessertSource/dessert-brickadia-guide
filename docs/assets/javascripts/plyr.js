@@ -7,7 +7,7 @@ document$.subscribe(function() {
         controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'],
         settings: ['quality', 'speed'],
         quality: {
-          default: 540,
+          default: 1080,
           options: [1080, 540]
         }
       });
