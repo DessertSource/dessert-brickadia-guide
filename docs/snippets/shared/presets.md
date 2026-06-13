@@ -34,14 +34,6 @@ The folder button **:material-folder:**{.button .tiny} opens the location of the
 
     1. Remember to use the back slash (`\`)!
 
-=== "Linux"
-
-    ``` toml
-    ~/.config/Epic/Brickadia/Saved/Presets/ # (1)!
-    ```
-
-    1. Remember to use the forward slash (`/`)!
-
 !!! warning "Folders not supported"
 
     There is currently no interface and indexing for folders. You will not be able to grab presets inside folders.
