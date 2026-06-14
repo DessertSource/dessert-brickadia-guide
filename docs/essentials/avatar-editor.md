@@ -28,7 +28,7 @@ its location.
 
 Clicking on any of the body parts, accessories or stickers in the catalog will equip them with their default colors automatically on your avatar.
 
-![Clicking to equip](../assets/media/essentials/avatar-editor/avatar-editor-equip-drag.png)
+![Clicking to equip](../assets/media/essentials/avatar-editor/avatar-editor-equip.png)
 
 Any body parts that can be attached to the left and right of your avatar will be equipped on both sides symmetrically when you click.
 
