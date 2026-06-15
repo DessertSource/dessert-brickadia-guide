@@ -41,7 +41,8 @@ nav = [
         ]},
         "essentials/emotes.md",
         "essentials/camera-tools.md",
-        "essentials/avatar-editor.md"
+        "essentials/avatar-editor.md",
+        "essentials/palette-editor.md",
     ]},
 
     { "Wires" = [
