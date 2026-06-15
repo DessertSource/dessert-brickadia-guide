@@ -481,6 +481,7 @@
                 padding: 0.2rem 0.3rem 0.2rem 0.3rem;
                 border-radius: 2.4rem;
                 font-size: min(.95em,.8rem);
+                white-space: nowrap;
             }
 
             .info-mini.link {
@@ -522,26 +523,6 @@
 
         /* In-game buttons */
 
-            .option {
-                background-color: #131D30;
-                color: #9DBAD4;
-                border: 0.075rem solid var(--md-default-fg-color--light);
-                text-decoration: none !important;
-                padding: 0.2rem 0.4rem 0.2rem 0.4rem;
-                font-family:  'Glacial Indifference', var(--md-text-font);
-                border-radius: 0.3rem;
-            }
-
-            .option-header {
-                background-color: #1B2F4A;
-                color: #ffffff;
-                border: 0.075rem solid var(--md-default-fg-color--light);
-                text-decoration: none !important;
-                padding: 0.2rem 0.4rem 0.2rem 0.4rem;
-                font-family:  'Glacial Indifference', var(--md-text-font);
-                border-radius: 0.3rem;
-            }
-
             .button {
                 background-color: #455a7e;
                 color: #a7bbce;
@@ -552,6 +533,7 @@
                 text-transform: uppercase;
                 font-family:  'Glacial Indifference', var(--md-text-font);
                 letter-spacing: 0.025em;
+                white-space: nowrap;
             }
 
             .button.red {
