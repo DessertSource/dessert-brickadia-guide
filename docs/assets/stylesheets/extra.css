@@ -702,7 +702,7 @@
 
         .md-search__button::after{
             color: #111a2b;
-            background-color: none;
+            background: none;
             border-width: 0.075rem;
             border-style: solid;
             border-radius: .1rem;
@@ -749,7 +749,6 @@
         }
 
         .md-nav--primary .md-nav__item .md-nav__link--active {
-            background-color: none;
             background: linear-gradient(90deg,#526cfe31 0%, #526cfe13 50%, #526cfe00 100%);
             background-repeat: no-repeat;
             font-weight: 600;
@@ -758,7 +757,6 @@
         }
 
         .md-nav--primary .md-nav__item label.md-nav__link--active {
-            background-color: none;
             background: linear-gradient(270deg,#526cfe31 0%, #526cfe13 50%, #526cfe00 100%);
             background-repeat: no-repeat;
             border-left: none;
@@ -767,7 +765,6 @@
         }
 
         .md-nav__link.md-nav__link--passed.md-nav__link--active {
-            background-color: none;
             color: var(--md-accent-fg-color);
             background: linear-gradient(270deg,#526cfe31 0%, #526cfe13 50%, #526cfe00 100%);
             background-repeat: no-repeat;
