@@ -6,6 +6,11 @@ tags:
 
 # Avatar Editor
 
+![Assortment of avatars](../assets/media/essentials/avatar-editor/avatars.png){.borderless}
+
+The avatar editor allows you to customize how your character looks with tons of cosmetics and body part.
+It also allows you to save your existing character as an preset.
+
 To start off,
 let's show how simple it is to use the avatar editor by making a quick avatar of Sans and saving it to our presets:
 
