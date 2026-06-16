@@ -4,7 +4,7 @@ tags:
     - Basics
 ---
 
-# Avatar Editor
+# Avatar editor
 
 ![Assortment of avatars](../assets/media/essentials/avatar-editor/avatars.png){.borderless}
 

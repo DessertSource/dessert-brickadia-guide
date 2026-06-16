@@ -4,7 +4,7 @@ tags:
     - Basics
 ---
 
-# Chat Commands
+# Chat commands
 
 A comprehensive list of commands you can send in the chat.
 

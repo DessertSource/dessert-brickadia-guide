@@ -4,7 +4,7 @@ tags:
     - Basics
 ---
 
-# Camera Tools
+# Camera tools
 
 ## Smooth Camera
 

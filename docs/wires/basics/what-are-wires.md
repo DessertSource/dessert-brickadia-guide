@@ -4,7 +4,7 @@ tags:
     - wires
 ---
 
-# What are Wires?
+# What are wires?
 
 Wires are a 3D-space based visual programming system that enables creators to build highly-readable circuits without having to touch traditional lines of code.
 Circuits work together to produce and run complex systems that improve gameplay depth.

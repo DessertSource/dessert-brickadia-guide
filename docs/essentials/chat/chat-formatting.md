@@ -4,7 +4,7 @@ tags:
     - Basics
 ---
 
-# Chat Formatting
+# Chat formatting
 
 Brickadia offers standard rich text support for formatting your messages in chat.
 
