@@ -1,5 +1,7 @@
 ---
 icon: lucide/scale
+tags:
+  - Meta
 search:
   exclude: true
 ---

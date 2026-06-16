@@ -1,7 +1,9 @@
 ---
 icon: lucide/shirt
 tags:
-    - Basics
+    - Essentials
+    - Avatars
+    - Presets
 ---
 
 # Avatar editor

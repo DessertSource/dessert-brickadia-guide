@@ -1,7 +1,7 @@
 ---
 icon: lucide/paint-bucket
 tags:
-    - wires
+    - Wires
 ---
 
 # Wire colors

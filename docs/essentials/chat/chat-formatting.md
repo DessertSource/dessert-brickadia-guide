@@ -1,7 +1,9 @@
 ---
 icon: lucide/message-circle-code
 tags:
-    - Basics
+    - Essentials
+    - Chat
+    - Formatting
 ---
 
 # Chat formatting

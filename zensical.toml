@@ -70,19 +70,51 @@ extra_javascript = [
     "assets/javascripts/plyr.js"
 ]
 
-[project.theme.icon.tag]
-debug = "lucide/bug-off"
-lighting = "lucide/spotlight"
-console = "lucide/square-terminal"
-perf = "lucide/circle-gauge"
-joints = "lucide/bolt"
-
 [project.extra.tags]
-Debugging = "debug"
-Lighting = "lighting"
-Console = "console"
-Performance = "perf"
-Joints = "joints"
+
+Meta = "meta"
+
+Essentials = "estl"
+Presets = "prst"
+Chat = "chat"
+Social = "soci"
+Movement = "mvmt"
+Camera = "camr"
+Filming = "film"
+Avatars = "avtr"
+Palettes = "palt"
+Lighting = "lgng"
+Formatting = "fmrt"
+
+Components = "cmpo"
+
+Wires = "wire"
+"Wire Variables" = "wvar"
+
+Commands = "cmds"
+
+[project.theme.icon.tag]
+
+meta = "lucide/info"
+
+estl = "lucide/star"
+prst = "lucide/notepad-text"
+chat = "lucide/message-circle-more"
+soci = "lucide/message-circle-heart"
+mvmt = "lucide/gamepad-directional"
+camr = "lucide/camera"
+film = "lucide/clapperboard"
+avtr = "lucide/shirt"
+palt = "lucide/swatch-book"
+lgng = "lucide/spotlight"
+fmrt = "lucide/type-outline"
+
+cmpo = "lucide/card-sim"
+
+wire = "lucide/cable"
+wvar = "lucide/variable"
+
+cmds = "lucide/square-terminal"
 
 [project.theme]
 

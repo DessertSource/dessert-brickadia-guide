@@ -1,7 +1,7 @@
 ---
 icon: lucide/waypoints
 tags:
-    - wires
+    - Wires
 ---
 
 # Execution signals

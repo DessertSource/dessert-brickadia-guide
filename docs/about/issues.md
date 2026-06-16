@@ -1,5 +1,7 @@
 ---
 icon: lucide/bug
+tags:
+  - Meta
 search:
   exclude: true
 ---

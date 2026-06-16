@@ -1,5 +1,7 @@
 ---
 icon: lucide/hand-platter
+tags:
+  - Meta
 search:
   exclude: true
 ---

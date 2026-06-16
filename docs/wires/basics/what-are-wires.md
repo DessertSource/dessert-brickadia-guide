@@ -1,7 +1,7 @@
 ---
 icon: lucide/circle-question-mark
 tags:
-    - wires
+    - Wires
 ---
 
 # What are wires?

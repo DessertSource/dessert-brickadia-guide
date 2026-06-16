@@ -1,7 +1,9 @@
 ---
 icon: lucide/camera
 tags:
-    - Basics
+    - Essentials
+    - Camera
+    - Filming
 ---
 
 # Camera tools

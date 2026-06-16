@@ -1,7 +1,8 @@
 ---
 icon: lucide/eye
 tags:
-    - Basics
+    - Essentials
+    - Camera
 ---
 
 # Looking around

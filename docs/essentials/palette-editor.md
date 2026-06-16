@@ -1,7 +1,9 @@
 ---
 icon: lucide/swatch-book
 tags:
-    - Basics
+    - Essentials
+    - Palettes
+    - Presets
 ---
 
 # Palette editor

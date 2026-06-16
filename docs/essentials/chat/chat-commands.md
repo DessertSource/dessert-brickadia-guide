@@ -1,7 +1,9 @@
 ---
 icon: lucide/terminal
 tags:
-    - Basics
+    - Essential
+    - Chat
+    - Commands
 ---
 
 # Chat commands

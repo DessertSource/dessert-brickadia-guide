@@ -1,7 +1,8 @@
 ---
 icon: lucide/hand
 tags:
-    - Basics
+    - Essentials
+    - Social
 ---
 
 # Emotes

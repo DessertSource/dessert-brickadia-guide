@@ -1,7 +1,9 @@
 ---
 icon: lucide/message-circle-more
 tags:
-    - Basics
+    - Essentials
+    - Chat
+    - Social
 ---
 
 # Chat

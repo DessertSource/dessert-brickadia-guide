@@ -1,7 +1,8 @@
 ---
 icon: lucide/gamepad-directional
 tags:
-    - Basics
+    - Essentials
+    - Movement
 ---
 
 # Movement

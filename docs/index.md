@@ -1,5 +1,7 @@
 ---
 icon: lucide/home
+tags:
+  - Meta
 search:
   exclude: true
 ---

@@ -1,5 +1,7 @@
 ---
 icon: lucide/folder-git-2
+tags:
+  - Meta
 search:
   exclude: true
 ---
