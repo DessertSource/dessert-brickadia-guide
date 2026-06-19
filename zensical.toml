@@ -9,8 +9,9 @@ repo_url = "https://codeberg.org/DessertSource/dessert-brickadia-guide"
 repo_name = "dessert-brickadia-guide"
 
 copyright = """
-&copy; 2026 DessertSource and contributors, under the
-<a href="https://dessertsource.github.io/dessert-brickadia-guide/about/license.html">MIT license</a>
+<a href="https://dessertsource.github.io/dessert-brickadia-guide/about/license.html">
+&copy; 2026 DessertSource and contributors
+</a>
 """
 
 watch = [
