@@ -49,18 +49,17 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: 3.x
-          cache: 'pip'
-        
-      - name: Install Zensical
-        run: pip install zensical
 
       - name: Cache pip
         uses: actions/cache@v5
         with:
-          path: .zensical_cache
-          key: ${{ runner.os }}-zensical-${{ github.sha }}
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-zensical
           restore-keys: |
-            ${{ runner.os }}-zensical-
+            ${{ runner.os }}-pip-
+
+      - name: Install Zensical
+        run: pip install zensical
 
       - name: Build site
         run: zensical build --clean
