@@ -34,4 +34,10 @@ search:
 
     The software license embedded across the entire project.
 
+-   [:lucide-globe-lock: Privacy Policy](./privacy-policy.md)
+
+    ---
+
+    Our privacy policy.
+  
 </div>

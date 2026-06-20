@@ -29,7 +29,8 @@ nav = [
         "about/repository.md",
         "about/issues.md",
         "about/contribution.md",
-        "about/license.md"
+        "about/license.md",
+        "about/privacy-policy.md"
     ]},
 
     { "Essentials" = [
@@ -62,9 +63,9 @@ extra_css = [
 ]
 
 extra_javascript = [
-    "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js",
-    "https://cdn.jsdelivr.net/npm/tablesort@5/dist/tablesort.min.js",
-    "https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.polyfilled.min.js",
+    "assets/libraries/tex-mml-chtml.js",
+    "assets/libraries/tablesort.min.js",
+    "assets/libraries/plyr.polyfilled.min.js",
     "assets/javascripts/mermaid.js",
     "assets/javascripts/mathjax.js",
     "assets/javascripts/tablesort.js",
