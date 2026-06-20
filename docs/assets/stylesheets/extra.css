@@ -10,24 +10,24 @@
 
     /* Inter */
 
-        @font-face { font-family: "Inter"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/inter/Inter-Thin.woff2) format("woff2"); }
+        /* @font-face { font-family: "Inter"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/inter/Inter-Thin.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: italic; font-weight: 100; font-display: swap; src: url(fonts/inter/Inter-ThinItalic.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: normal; font-weight: 200; font-display: swap; src: url(fonts/inter/Inter-ExtraLight.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: italic; font-weight: 200; font-display: swap; src: url(fonts/inter/Inter-ExtraLightItalic.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: normal; font-weight: 300; font-display: swap; src: url(fonts/inter/Inter-Light.woff2) format("woff2"); }
-        @font-face { font-family: "Inter"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/inter/Inter-LightItalic.woff2) format("woff2"); }
+        @font-face { font-family: "Inter"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/inter/Inter-LightItalic.woff2) format("woff2"); } */
         @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/inter/Inter-Regular.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/inter/Inter-Italic.woff2) format("woff2"); }
-        @font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/inter/Inter-Medium.woff2) format("woff2"); }
-        @font-face { font-family: "Inter"; font-style: italic; font-weight: 500; font-display: swap; src: url(fonts/inter/Inter-MediumItalic.woff2) format("woff2"); }
+        /* @font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/inter/Inter-Medium.woff2) format("woff2"); }
+        @font-face { font-family: "Inter"; font-style: italic; font-weight: 500; font-display: swap; src: url(fonts/inter/Inter-MediumItalic.woff2) format("woff2"); } */
         @font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/inter/Inter-SemiBold.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: italic; font-weight: 600; font-display: swap; src: url(fonts/inter/Inter-SemiBoldItalic.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/inter/Inter-Bold.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: italic; font-weight: 700; font-display: swap; src: url(fonts/inter/Inter-BoldItalic.woff2) format("woff2"); }
-        @font-face { font-family: "Inter"; font-style: normal; font-weight: 800; font-display: swap; src: url(fonts/inter/Inter-ExtraBold.woff2) format("woff2"); }
+        /* @font-face { font-family: "Inter"; font-style: normal; font-weight: 800; font-display: swap; src: url(fonts/inter/Inter-ExtraBold.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: italic; font-weight: 800; font-display: swap; src: url(fonts/inter/Inter-ExtraBoldItalic.woff2) format("woff2"); }
         @font-face { font-family: "Inter"; font-style: normal; font-weight: 900; font-display: swap; src: url(fonts/inter/Inter-Black.woff2) format("woff2"); }
-        @font-face { font-family: "Inter"; font-style: italic; font-weight: 900; font-display: swap; src: url(fonts/inter/Inter-BlackItalic.woff2) format("woff2"); }
+        @font-face { font-family: "Inter"; font-style: italic; font-weight: 900; font-display: swap; src: url(fonts/inter/Inter-BlackItalic.woff2) format("woff2"); } */
 
         /* Configuration */
 
@@ -69,61 +69,65 @@
 
     /* JetBrains Mono */
 
-        @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Thin.woff2) format("woff2"); }
+        /* @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Thin.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 100; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-ThinItalic.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 200; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsono-ExtraLight.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 200; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-ExtraLightItalic.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 300; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Light.woff2) format("woff2"); }
-        @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-LightItalic.woff2) format("woff2"); }
+        @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-LightItalic.woff2) format("woff2"); } */
         @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Regular.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Italic.woff2) format("woff2"); }
-        @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Medium.woff2) format("woff2"); }
+        /* @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Medium.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 500; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-MediumItalic.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-SemiBold.woff2) format("woff2"); }
-        @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 600; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-SemiBoldItalic.woff2) format("woff2"); }
+        @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 600; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-SemiBoldItalic.woff2) format("woff2"); } */
         @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-Bold.woff2) format("woff2"); }
         @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 700; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-BoldItalic.woff2) format("woff2"); }
-        @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 800; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-ExtraBold.woff2) format("woff2"); }
-        @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 800; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-ExtraBoldItalic.woff2) format("woff2"); }
+        /* @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 800; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-ExtraBold.woff2) format("woff2"); }
+        @font-face { font-family: "JetBrains Mono"; font-style: italic; font-weight: 800; font-display: swap; src: url(fonts/jetbrains-mono/JetBrainsMono-ExtraBoldItalic.woff2) format("woff2"); } */
 
     /* Roboto */
 
-        @font-face { font-family: "Roboto"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/roboto/Roboto-Thin.ttf) format("truetype"); }
+        /* @font-face { font-family: "Roboto"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/roboto/Roboto-Thin.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: italic; font-weight: 100; font-display: swap; src: url(fonts/roboto/Roboto-ThinItalic.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: normal; font-weight: 200; font-display: swap; src: url(fonts/roboto/Roboto-ExtraLight.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: italic; font-weight: 200; font-display: swap; src: url(fonts/roboto/Roboto-ExtraLightItalic.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: normal; font-weight: 300; font-display: swap; src: url(fonts/roboto/Roboto-Light.ttf) format("truetype"); }
-        @font-face { font-family: "Roboto"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/roboto/Roboto-LightItalic.ttf) format("truetype"); }
+        @font-face { font-family: "Roboto"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/roboto/Roboto-LightItalic.ttf) format("truetype"); } */
         @font-face { font-family: "Roboto"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/roboto/Roboto-Regular.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/roboto/Roboto-Italic.ttf) format("truetype"); }
-        @font-face { font-family: "Roboto"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/roboto/Roboto-Medium.ttf) format("truetype"); }
+        /* @font-face { font-family: "Roboto"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/roboto/Roboto-Medium.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: italic; font-weight: 500; font-display: swap; src: url(fonts/roboto/Roboto-MediumItalic.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/roboto/Roboto-SemiBold.ttf) format("truetype"); }
-        @font-face { font-family: "Roboto"; font-style: italic; font-weight: 600; font-display: swap; src: url(fonts/roboto/Roboto-SemiBoldItalic.ttf) format("truetype"); }
+        @font-face { font-family: "Roboto"; font-style: italic; font-weight: 600; font-display: swap; src: url(fonts/roboto/Roboto-SemiBoldItalic.ttf) format("truetype"); } */
         @font-face { font-family: "Roboto"; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/roboto/Roboto-Bold.ttf) format("truetype"); }
         @font-face { font-family: "Roboto"; font-style: italic; font-weight: 700; font-display: swap; src: url(fonts/roboto/Roboto-BoldItalic.ttf) format("truetype"); }
+        /* @font-face { font-family: "Roboto"; font-style: normal; font-weight: 800; font-display: swap; src: url(fonts/roboto/Roboto-ExtraBold.ttf) format("truetype"); }
+        @font-face { font-family: "Roboto"; font-style: italic; font-weight: 800; font-display: swap; src: url(fonts/roboto/Roboto-ExtraBoldItalic.ttf) format("truetype"); }
+        @font-face { font-family: "Roboto"; font-style: normal; font-weight: 900; font-display: swap; src: url(fonts/roboto/Roboto-Black.ttf) format("truetype"); }
+        @font-face { font-family: "Roboto"; font-style: italic; font-weight: 900; font-display: swap; src: url(fonts/roboto/Roboto-BlackItalic.ttf) format("truetype"); } */
 
     /* Roboto Mono */
 
-        @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Thin.ttf) format("truetype"); }
+        /* @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 100; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Thin.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 100; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-ThinItalic.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 200; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-ExtraLight.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 200; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-ExtraLightItalic.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 300; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Light.ttf) format("truetype"); }
-        @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-LightItalic.ttf) format("truetype"); }
+        @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-LightItalic.ttf) format("truetype"); } */
         @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Regular.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Italic.ttf) format("truetype"); }
-        @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Medium.ttf) format("truetype"); }
+        /* @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Medium.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 500; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-MediumItalic.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-SemiBold.ttf) format("truetype"); }
-        @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 600; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-SemiBoldItalic.ttf) format("truetype"); }
+        @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 600; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-SemiBoldItalic.ttf) format("truetype"); } */
         @font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-Bold.ttf) format("truetype"); }
         @font-face { font-family: "Roboto Mono"; font-style: italic; font-weight: 700; font-display: swap; src: url(fonts/roboto-mono/RobotoMono-BoldItalic.ttf) format("truetype"); }
 
     /* Glacial Indifference */
 
-        @font-face { font-family: "Glacial Indifference"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/glacial-indifference/GlacialIndifference-Regular.otf) format("opentype"); }
-        @font-face { font-family: "Glacial Indifference"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/glacial-indifference/GlacialIndifference-Italic.otf) format("opentype"); }
+        /* @font-face { font-family: "Glacial Indifference"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/glacial-indifference/GlacialIndifference-Regular.otf) format("opentype"); }
+        @font-face { font-family: "Glacial Indifference"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/glacial-indifference/GlacialIndifference-Italic.otf) format("opentype"); } */
         @font-face { font-family: "Glacial Indifference"; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/glacial-indifference/GlacialIndifference-Bold.otf) format("opentype"); }
 
 /* Font faces */
