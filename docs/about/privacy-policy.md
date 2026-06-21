@@ -20,6 +20,8 @@ Thank you for considering using our guide to help with anything Brickadia! In mo
 - **Technical Metadata:** Information stored about an individual's device, such as browser type, operating system and access history.
 - **The Project (referred to as "We", "Us" or "Our"):** Refers to the maintainers, core contributors and administrator of the "dessert-brickadia-guide" repository located at [https://codeberg.org/DessertSource/dessert-brickadia-guide](https://codeberg.org/DessertSource/dessert-brickadia-guide), which is also mirrored and synchronized to GitHub at this location: [https://github.com/DessertSource/dessert-brickadia-guide](https://github.com/DessertSource/dessert-brickadia-guide).
 - **Website:** The static website ["Dessert's Guidebook"](https://dessertsource.github.io/dessert-brickadia-guide/index.html) that is being served to visitors.
+- **Content Delivery Network ("CDN")**: Third-party services used to distribute and serve Javascript-based web scripts to users.
+- **Polyfill**: A script to improve compatibility on older browsers.
 
 ## Hosting and Data Collection
 
@@ -27,12 +29,25 @@ This site is a static site hosted using GitHub Pages.
 We do not run any data collection software nor do we store any databases obtained from data collection software.
 Our assets, including website scripts, images and videos are embedded into the repository itself without external hosting services.
 
-However, when you visit our website, the hosting provider GitHub, Inc. may automatically collect and store technical metadata from your device, which includes:
+However, when you visit our website, the providers and services we use may automatically collect and store technical metadata from your device, which includes:
 
-- IP addresses: classified as personal data under global privacy laws
-- Usage data: browser type, browser configuration and request history
+- **IP addresses:** classified as personal data under global privacy laws
+- **Usage data:** browser type, browser configuration and request history
 
-For more details on how your data is handled on this website, please consult the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+The providers and services are are:
+
+- **GitHub, Inc. (Website Hosting)**: Provides web hosting through GitHub Pages.
+- **unpkg (Content Delivery Network & Polyfills)**: Mirrors everything on npm, provides polyfill scripts to the user through npm and uses Cloudflare Workers. Their files backend is hosted on Fly.io.
+- **Shields.io (Dynamic Status Badges)**: Processes visual elements we can use to display build status from GitHub and date since the last commit to the repository on the home page of this website.
+
+For more details on how your data is handled on this website, please consult the following resources:
+
+- [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+- [unpkg website](https://unpkg.com/)
+- [npm Privacy Policy](https://docs.npmjs.com/policies/privacy)
+- [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/)
+- [Fly.io Privacy Policy](https://fly.io/legal/privacy-policy/)
+- [Shields.io Privacy Policy](https://shields.io/privacy)
 
 ## External Links
 

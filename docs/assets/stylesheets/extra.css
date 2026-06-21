@@ -1,6 +1,10 @@
+/* GLightBox */
+
+@import url('../libraries/glightbox.min.css');
+
 /* Plyr */
 
-@import url('https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.min.css');
+@import url('../libraries/plyr.css');
 
 :root {
     --plyr-color-main: #526cfe;
