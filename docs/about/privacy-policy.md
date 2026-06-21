@@ -10,6 +10,10 @@ search:
 
 Thank you for considering using our guide to help with anything Brickadia! In most cases you may not read this, but please read this privacy notice to get an idea of where your data goes when you use this site.
 
+!!! info
+
+    This is a preliminary privacy policy, as Zensical does not have the functionality of the privacy plugin in Material for Mkdocs yet.
+
 ---
 
 **Last updated: 21 June 2026**
@@ -34,13 +38,13 @@ However, when you visit our website, the providers and services we use may autom
 - **IP addresses:** classified as personal data under global privacy laws
 - **Usage data:** browser type, browser configuration and request history
 
-The providers and services are are:
+The providers and services are:
 
 - **GitHub, Inc. (Website Hosting)**: Provides web hosting through GitHub Pages.
 - **unpkg (Content Delivery Network & Polyfills)**: Mirrors everything on npm, provides polyfill scripts to the user through npm and uses Cloudflare Workers. Their files backend is hosted on Fly.io.
 - **Shields.io (Dynamic Status Badges)**: Processes visual elements we can use to display build status from GitHub and date since the last commit to the repository on the home page of this website.
 
-For more details on how your data is handled on this website, please consult the following resources:
+For more details on how your data is handled on this website and the services we use, please consult the following resources:
 
 - [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 - [unpkg website](https://unpkg.com/)

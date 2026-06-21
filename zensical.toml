@@ -10,8 +10,10 @@ repo_name = "dessert-brickadia-guide"
 
 copyright = """
 <a href="https://dessertsource.github.io/dessert-brickadia-guide/about/license.html">
-&copy; 2026 DessertSource and contributors
-</a>
+&copy; 2026 DessertSource & contribs.</a>
+|
+<a href="https://dessertsource.github.io/dessert-brickadia-guide/about/privacy-policy.html">
+Privacy Policy</a>
 """
 
 watch = [
@@ -20,43 +22,43 @@ watch = [
     "docs/assets/stylesheets/"
 ]
 
-nav = [
+# nav = [
 
-    { "Home" = "index.md" },
+#     { "Home" = "index.md" },
 
-    { "About" = [
-        "about/index.md",
-        "about/repository.md",
-        "about/issues.md",
-        "about/contribution.md",
-        "about/license.md",
-        "about/privacy-policy.md"
-    ]},
+#     { "About" = [
+#         "about/index.md",
+#         "about/repository.md",
+#         "about/issues.md",
+#         "about/contribution.md",
+#         "about/license.md",
+#         "about/privacy-policy.md"
+#     ]},
 
-    { "Essentials" = [
-        "essentials/looking-around.md",
-        "essentials/movement.md",
-        { "Chat" = [
-            "essentials/chat/index.md",
-            "essentials/chat/chat-formatting.md",
-            "essentials/chat/chat-commands.md",
-        ]},
-        "essentials/emotes.md",
-        "essentials/camera-tools.md",
-        "essentials/avatar-editor.md",
-        "essentials/palette-editor.md",
-    ]},
+#     { "Essentials" = [
+#         "essentials/looking-around.md",
+#         "essentials/movement.md",
+#         { "Chat" = [
+#             "essentials/chat/index.md",
+#             "essentials/chat/chat-formatting.md",
+#             "essentials/chat/chat-commands.md",
+#         ]},
+#         "essentials/emotes.md",
+#         "essentials/camera-tools.md",
+#         "essentials/avatar-editor.md",
+#         "essentials/palette-editor.md",
+#     ]},
 
-    { "Wires" = [
-        { "Basics" = [
-            "wires/basics/what-are-wires.md",
-            # "wires/basics/what-are-gates.md",
-            # "wires/basics/rerouters",   
-            "wires/basics/execution-signals.md",
-            "wires/basics/wire-colors.md"
-        ]}
-    ]}
-]
+#     { "Wires" = [
+#         { "Basics" = [
+#             "wires/basics/what-are-wires.md",
+#             # "wires/basics/what-are-gates.md",
+#             # "wires/basics/rerouters",   
+#             "wires/basics/execution-signals.md",
+#             "wires/basics/wire-colors.md"
+#         ]}
+#     ]}
+# ]
 
 extra_css = [
     "assets/stylesheets/extra.css",
