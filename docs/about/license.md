@@ -30,12 +30,14 @@ SOFTWARE.
 
 ---
 
-View the file in the repository that stores an exact copy of this license:
+View the file in the repository that stores an exact copy of this
+license:
 
 [:simple-codeberg: View license file on Codeberg](https://codeberg.org/DessertSource/dessert-brickadia-guide/src/branch/main/LICENSE){ .md-button .md-button--primary }
 
 ---
 
-This license is adapted from the MIT license with changes made to reflect the contributors.
+This license is adapted from the MIT license with changes made to
+reflect the contributors.
 
 [:simple-opensourceinitiative: View the original license on the Open Source Initative](https://opensource.org/license/mit){ .md-button .md-button--primary }
