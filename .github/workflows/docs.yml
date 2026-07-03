@@ -58,8 +58,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      - name: Install Zensical
-        run: pip install zensical
+      - name: Install dependencies
+        run: pip install zensical pandas tabulate
 
       - name: Build site
         run: zensical build --clean
