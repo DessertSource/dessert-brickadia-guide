@@ -39,9 +39,9 @@ Value changes will trigger an outgoing execution signal that lasts one tick,
 provided the value being changed to must not be 0 in numerical form.
 This means that the following values for their respective data type:
 
-- {{var_display(False,"boolean")}}
-- {{var_display(0,"integer")}}
-- {{var_display(0.00,"float")}}
+- {{var_display("False","boolean")}}
+- {{var_display("0","integer")}}
+- {{var_display("0.00","float")}}
 
 ...will not trigger an outgoing execution signal.
 

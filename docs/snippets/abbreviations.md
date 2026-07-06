@@ -3,3 +3,7 @@
 
 *[gizmo]: Mouse-based control buttons in the 3D space for precision.
 *[gizmos]: Mouse-based control buttons in the 3D space for precision.
+
+*[NaN]: An acronym for a "Not a Number" error. Is often caused by dividing with zero. Can be solved using safeguards or better code that leads to using formulas that minimize this risk.
+
+*[HUD]: Heads-up display. Can also be referred to as user interface.

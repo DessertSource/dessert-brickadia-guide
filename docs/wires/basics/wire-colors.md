@@ -1,7 +1,7 @@
 ---
 icon: lucide/paint-bucket
 tags:
-    - Wires
+  - Wires
 ---
 
 # Wire colors
@@ -11,7 +11,7 @@ If applicable, the color will also appear darker or lighter depending on the val
 
 Unconnected wires have a gray color.
 
-{{ wire_display(12, None, None) }}
+{{ wire_display(12, None, None, False) }}
 
 Wires glow in the dark, which allows them to be visible in every environment.
 
@@ -24,10 +24,10 @@ Wires will show arrows pointing towards their inputs when you equip the Connecto
 - If the Boolean is {{var_display(False,"boolean")}}, the wire will be colored dark red.
 - If the Boolean is {{var_display(True,"boolean")}}, the wire will be colored red.
 
-| Value                            | Wire Color                                            |
-| -------------------------------- | ----------------------------------------------------- |
-| {{var_display(False,"boolean")}} | {{ wire_display(6, "boolean", "false") }}<br>Dark red |
-| {{var_display(True,"boolean")}}  | {{ wire_display(6, "boolean", "true") }}<br>Red       |
+| Value                            | Wire Color                                                   |
+| -------------------------------- | ------------------------------------------------------------ |
+| {{var_display(False,"boolean")}} | {{ wire_display(6, "boolean", "false", False) }}<br>Dark red |
+| {{var_display(True,"boolean")}}  | {{ wire_display(6, "boolean", "true", False) }}<br>Red       |
 
 ## :lucide-arrow-up-1-0: Integer
 
@@ -35,11 +35,11 @@ Wires will show arrows pointing towards their inputs when you equip the Connecto
 - If the integer is equal to {{var_display("1","integer")}}, the wire will be colored with a bluish green.
 - If the integer is equal to or higher than {{var_display("2","integer")}}, the wire will be colored with a bright bluish green.
 
-| Value                          | Wire Color                                                     |
-| ------------------------------ | -------------------------------------------------------------- |
-| {{var_display("0","integer")}} | {{ wire_display(6, "integer", "zero") }}<br>Dark bluish green  |
-| {{var_display("1","integer")}} | {{ wire_display(6, "integer", "one") }}<br>Bluish green        |
-| {{var_display("2","integer")}} | {{ wire_display(6, "integer", "two") }}<br>Bright bluish green |
+| Value                          | Wire Color                                                            |
+| ------------------------------ | --------------------------------------------------------------------- |
+| {{var_display("0","integer")}} | {{ wire_display(6, "integer", "zero", False) }}<br>Dark bluish green  |
+| {{var_display("1","integer")}} | {{ wire_display(6, "integer", "one", False) }}<br>Bluish green        |
+| {{var_display("2","integer")}} | {{ wire_display(6, "integer", "two", False) }}<br>Bright bluish green |
 
 ## :lucide-decimals-arrow-right: Float
 
@@ -48,17 +48,17 @@ The brightness of the green color is determined from a range of 0 to 1 for the f
 - Float wires carrying negative values below {{var_display("0.00","float")}} will not turn dimmer.
 - Float wires carrying values higher than {{var_display("1.00","float")}} will not turn brighter.
 
-| Value                           | Wire Color                                            |
-| ------------------------------- | ----------------------------------------------------- |
-| {{var_display("0.00","float")}} | {{ wire_display(6, "float", "zero") }}<br>Dark green  |
-| {{var_display("0.50","float")}} | {{ wire_display(6, "float", "half") }}<br>Green       |
-| {{var_display("1.00","float")}} | {{ wire_display(6, "float", "one") }}<br>Bright green |
+| Value                           | Wire Color                                                   |
+| ------------------------------- | ------------------------------------------------------------ |
+| {{var_display("0.00","float")}} | {{ wire_display(6, "float", "zero", False) }}<br>Dark green  |
+| {{var_display("0.50","float")}} | {{ wire_display(6, "float", "half", False) }}<br>Green       |
+| {{var_display("1.00","float")}} | {{ wire_display(6, "float", "one", False) }}<br>Bright green |
 
-## :lucide-package: Entity
+## :lucide-package: Object
 
-Entity wires have a cyan-blue color.
+Object wires have a cyan-blue color.
 
-{{ wire_display(12, "entity", None) }}
+{{ wire_display(12, "entity", None, False) }}
 
 ## :lucide-split: Exec
 
@@ -66,10 +66,10 @@ Exec wires are usually dark gray.
 
 When an Exec output is triggered, all outgoing wires carrying the Exec output will flash light gray for one tick.
 
-| Value                         | Wire Color                                        |
-| ----------------------------- | ------------------------------------------------- |
-| {{var_display("Off","exec")}} | {{ wire_display(6, "exec", "off") }}<br>Dark gray |
-| {{var_display("On","exec")}}  | {{ wire_display(6, "exec", "on") }}<br>Light gray |
+| Value                         | Wire Color                                               |
+| ----------------------------- | -------------------------------------------------------- |
+| {{var_display("Off","exec")}} | {{ wire_display(6, "exec", "off", False) }}<br>Dark gray |
+| {{var_display("On","exec")}}  | {{ wire_display(6, "exec", "on", False) }}<br>Light gray |
 
 ## Other colors
 
@@ -79,4 +79,4 @@ Wire colors that are used in-game that are not colored by a specific criteria an
 
 This is a color often used for non-standard data types.
 
-{{ wire_display(12, "blue", None) }}
+{{ wire_display(12, "blue", None, False) }}
