@@ -2,37 +2,92 @@ def define_env(env):
 
     # Variable type display
     @env.macro
-    def var_display(text, data_type) -> None:
+    def var_display(value, data_type) -> None:
         
         icon = ""
         color = ""
-        displayed_text = ""
+        text = ""
         tooltip = ""
 
         if data_type == "boolean":
-            icon = "lucide-power"
-            displayed_text = "Boolean"
-            tooltip = displayed_text
+            icon = "lucide-check-square"
+            text = "Boolean"
+            tooltip = text
             color = "red"
         elif data_type == "integer":
-            icon = "lucide-arrow-up-1-0"
-            displayed_text = "Integer"
-            tooltip = displayed_text
+            icon = "lucide-hash"
+            text = "Integer"
+            tooltip = text
             color = "teal"
         elif data_type == "float":
-            icon = "lucide-decimals-arrow-right"
-            displayed_text = "Float"
-            tooltip = displayed_text
+            icon = "lucide-spline"
+            text = "Float"
+            tooltip = text
             color = "green"
+        elif data_type == "string":
+            icon = "lucide-type"
+            text = "String"
+            tooltip = text
+            color = "orange"
+        elif data_type == "vector":
+            icon = "lucide-axis-3d"
+            text = "Vector"
+            tooltip = text
+            color = "yellow"
+        elif data_type == "rotation":
+            icon = "lucide-rotate-cw"
+            text = "Rotation"
+            tooltip = text
+            color = "lime"
+        elif data_type == "quaternion":
+            icon = "lucide-rotate-3d"
+            text = "Quaternion"
+            tooltip = text
+            color = "sky-blue"
+        elif data_type == "reference":
+            icon = "lucide-link"
+            text = "Reference"
+            tooltip = text
+            color = "cyan"
+        elif data_type == "color":
+            icon = "lucide-palette"
+            text = "Color"
+            tooltip = text
+            color = "pink"
+        elif data_type == "enum":
+            icon = "lucide-list-ordered"
+            text = "Enum"
+            tooltip = text
+            color = "lilac"
         elif data_type == "exec":
             icon = "lucide-split"
-            displayed_text = "Exec"
-            tooltip = displayed_text
+            text = "Exec"
+            tooltip = text
+        elif data_type == "special":
+            icon = "lucide-boxes"
+            text = value
+            tooltip = text
+            color = "blue"
 
-        if text != None:
-            displayed_text = text
+        if value != None:
+            text = value
+            if data_type == "string":
+                value = value.replace(" ", "·")
+                text = f'"{value}"'
+            elif data_type == "vector":
+                text = f'**X: {value[0]}**{{.array}} **Y: {value[1]}**{{.array}} **Z: {value[2]}**{{.array}}'
+            elif data_type == "rotation":
+                text = f'**Roll: {value[0]}&#176;**{{.array}} **Pitch: {value[1]}&#176;**{{.array}} **Yaw: {value[2]}&#176;**{{.array}}'
+            elif data_type == "quaternion":
+                text = f'**X: {value[0]}**{{.array}} **Y: {value[1]}**{{.array}} **Z: {value[2]}**{{.array}} **W: {value[3]}**{{.array}}'
+            elif data_type == "color":
+                text = f':material-square:{{style="color:rgb({value[0]},{value[1]},{value[2]});"}} **R: {value[0]}**{{.array}} **G: {value[1]}**{{.array}} **B: {value[2]}**{{.array}}'
+            elif data_type == "enum":
+                text = f'**{value[0]}**{{.array}} -> **{value[1]}**'
+            elif value == "False":
+                icon = "lucide-square"
     
-        return f"**:{icon}:{{.trans}} {displayed_text}**{{.text .info-mini .{color} title={tooltip}}}"
+        return f'<span class="text info-mini {color}" title="{tooltip}" markdown><b> :{icon}:{{.trans}} {text}</b></span>'
 
     # Color square
     @env.macro
@@ -41,15 +96,19 @@ def define_env(env):
 
     # Wire color display
     @env.macro
-    def wire_display(length, data_type, variant) -> None:
+    def wire_display(length, data_type, variant, reference) -> None:
 
-        symbol = ":material-play:"
+        symbols = "&#x25B6;&#xFE0E;"
         wire = ""
+        stripe_class = ""
+        
+        if reference == True:
+            stripe_class = ' wire-var-ref'
 
         for i in range(length):
-            wire += symbol
+            wire += symbols
 
-        return f"**{wire}**{{.wire .{data_type} .{variant}}}"
+        return f'<span aria-hidden="true" class="wire {data_type} {variant}{stripe_class}"><span class="wire-arrows">{wire}</span></span>'
 
     # Video
     @env.macro

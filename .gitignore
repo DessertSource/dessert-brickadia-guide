@@ -9,3 +9,7 @@ docs/uncategorized
 /lfs/
 .git/lfs/objects/logs/
 update-libs.py
+.stylelintrc.json
+node_modules/
+package-lock.json
+package.json
