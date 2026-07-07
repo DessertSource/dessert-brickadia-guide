@@ -83,7 +83,7 @@ def define_env(env):
             elif data_type == "color":
                 text = f':material-square:{{style="color:rgb({value[0]},{value[1]},{value[2]});"}} **R: {value[0]}**{{.array}} **G: {value[1]}**{{.array}} **B: {value[2]}**{{.array}}'
             elif data_type == "enum":
-                text = f'**{value[0]}**{{.array}} -> **{value[1]}**'
+                text = f'**{value[0]}**{{.array}} = **{value[1]}**'
             elif value == "False":
                 icon = "lucide-square"
     
