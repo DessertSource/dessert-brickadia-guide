@@ -21,7 +21,7 @@ you use this site.
 
 ---
 
-**Last updated: 28 June 2026**
+**Last updated: 8 July 2026**
 
 ## Definitions
 
@@ -32,7 +32,7 @@ individual.
 device, such as browser type, operating system and access history.
 - **The Project (referred to as "We", "Us" or "Our"):** Refers to
 the maintainers, core contributors and administrator of the
-dessert-brickadia-guide" repository located at
+"dessert-brickadia-guide" repository located at
 [https://codeberg.org/DessertSource/dessert-brickadia-guide](https://codeberg.org/DessertSource/dessert-brickadia-guide),
 which is also mirrored and synchronized to GitHub at this location:
 [https://github.com/DessertSource/dessert-brickadia-guide](https://github.com/DessertSource/dessert-brickadia-guide).
@@ -40,8 +40,6 @@ which is also mirrored and synchronized to GitHub at this location:
 that is being served to visitors.
 - **Content Delivery Network ("CDN")**: Third-party services used
 to distribute and serve Javascript-based web scripts to users.
-- **Polyfill**: A script to improve compatibility on older
-browsers.
 
 ## Hosting and Data Collection
 
@@ -65,7 +63,7 @@ The providers and services are:
 
 - **GitHub, Inc. (Website Hosting)**: Provides web hosting through
 GitHub Pages.
-- **unpkg (Content Delivery Network & Polyfills)**: Mirrors
+- **unpkg (Content Delivery Network)**: Mirrors
 everything on npm, provides polyfill scripts to the user through
 npm and uses Cloudflare Workers. Their files backend is hosted on
 Fly.io.
@@ -97,25 +95,6 @@ for the privacy practices or content of these third-party services.
 
 Please consult the external websites' respective privacy policies
 for more information about the external websites we link to.
-
-## Repository
-
-Any contributions on the main repository of the Project may include
-traces of technical information, your email addresses and will
-become a permament part of the repository's Git history.
-
-A Codeberg account is required to contribute to the repository, but
-contributors can use an existing GitHub account to make one. Please
-note that this process is subject to the [GitHub privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
-and the [Codeberg privacy policy](https://codeberg.org/Codeberg/org/src/branch/main/PrivacyPolicy.md).
-
-Due to the nature of the repository being hosted on Codeberg and
-mirrored to GitHub, you may not desire to include such information
-in your commits. In this case, you can do the following:
-
-- Hide your real email address in Codeberg's account settings
-- Use a public-facing email address for your issues, pull requests
-or commits
 
 ## Contact
 
