@@ -73,6 +73,23 @@
             -webkit-text-stroke: 4px var(--md-chat-outline);
             paint-order: stroke fill;
         }
+
+        .chat > u {
+            text-decoration: none;
+            position: relative;
+            display: inline-block;
+        }
+
+        .chat > u::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 5px;
+            width: 100%;
+            height: 1px;
+            background-color: var(--md-chat-color);
+            box-shadow: 0 0 0 2px var(--md-chat-outline);
+        }
     }
 
     .chat.username { color: var(--md-chat-username) }
