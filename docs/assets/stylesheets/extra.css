@@ -249,12 +249,6 @@
                 transition: unset;
             }
 
-        /* Figure captions */
-
-            .md-typeset figcaption {
-                font-style: unset;
-            }
-
         /* Keys */
 
             .md-typeset kbd {
