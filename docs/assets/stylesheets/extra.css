@@ -164,17 +164,16 @@
 
         /* Images */
 
-            /* Image border */
+            /* Image corner radius */
 
                 .md-content img {
-                    border: .075rem solid var(--md-default-fg-color--lightest);
                     border-radius: var(--md-border-radius);
                 }
 
-            /* Image without border */
+            /* Image border class */
 
-                img.borderless {
-                    border-style: none !important;
+                img.bordered {
+                    border: .075rem solid var(--md-default-fg-color--lightest);
                 }
 
             /* Rounded image */
