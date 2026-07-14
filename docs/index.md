@@ -23,6 +23,6 @@ This is running on the latest possible version of [Zensical](https://zensical.or
 This allows me to focus on documentation and less time spent on setting up or tuning the backend.
 As such, it also allows me to focus on consistency of the content and control the way it is presented, both creatively and informatively.
 
-![](docs/show-message-box-modal.svg)
+![](./show-message-box-modal.svg)
 
 test
