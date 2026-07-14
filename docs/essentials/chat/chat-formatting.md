@@ -16,7 +16,7 @@ For reference, this is plain text:
 Text
 ```
 
-> **User:**{.font-rb .chat .username} <span class="font-rb chat">Text</span>
+> **User:**{.chat .username} <span class="chat">Text</span>
 
 A preview of your text will show when you are formatting your chat message.
 
@@ -28,7 +28,7 @@ Add two asterisks on each side to make text bold in your message.
 **Text**
 ```
 
-> **User:**{.font-rb .chat .username} **Text**{.font-rb .chat}
+> **User:**{.chat .username} **Text**{.chat}
 
 ## :lucide-italic: Italic text
 
@@ -38,17 +38,17 @@ Add just one asterisk on each side to italicize text in your message.
 *Text*
 ```
 
-> **User:**{.font-rb .chat .username} *Text*{.font-rb .chat}
+> **User:**{.chat .username} *Text*{.chat}
 
 ## :lucide-underline: Underline text
 
-Add 2 underscores on each side to underline text in your message.
+Add two underscores on each side to underline text in your message.
 
 ```
 __Text__
 ```
 
-> **User:**{.font-rb .chat .username} <span class="font-rb chat"><u>Text</u></span>
+> **User:**{.chat .username} <span class="chat"><u>Text</u></span>
 
 ## Mixed formatting
 
@@ -60,7 +60,7 @@ This section lists every possible combination of basic formatting in chat.
 ***Text***
 ```
 
-> **User:**{.font-rb .chat .username} ***Text***{.font-rb .chat}
+> **User:**{.chat .username} ***Text***{.chat}
 
 ### Bold + underline
 
@@ -68,7 +68,7 @@ This section lists every possible combination of basic formatting in chat.
 __**Text**__
 ```
 
-> **User:**{.font-rb .chat .username} <span class="font-rb chat"><u><b>Text</b></u></span>
+> **User:**{.chat .username} <span class="chat"><u><b>Text</b></u></span>
 
 ### Italic + underline
 
@@ -76,7 +76,7 @@ __**Text**__
 ___Text___
 ```
 
-> **User:**{.font-rb .chat .username} <span class="font-rb chat"><u><i>Text</i></u></span>
+> **User:**{.chat .username} <span class="chat"><u><i>Text</i></u></span>
 
 `__*Text*__` also works, but the above method is faster.
 
@@ -86,7 +86,7 @@ ___Text___
 ___**Text**___
 ```
 
-> **User:**{.font-rb .chat .username} <span class="font-rb chat"><b><u><i>Text</i></u></b></span>
+> **User:**{.chat .username} <span class="chat"><b><u><i>Text</i></u></b></span>
 
 `__***Text***__` also works.
 This is up to your own preference.
@@ -99,7 +99,7 @@ Anything that has `http://` or `https://` in front will be automatically turned 
 https://brickadia.com/
 ```
 
-<span style="color: #00FFFF; text-decoration: underline dotted;" class="font-rb chat">https://brickadia.com/</span>
+<span style="color: #00FFFF; text-decoration: underline dotted;" class="chat">https://brickadia.com/</span>
 
 Additional formatting will not work for links.
 
@@ -111,7 +111,7 @@ Add a colon on each side, around the name of an emote.
 :bunny:
 ```
 
-> **User:**{.font-rb .chat .username} ![Bunny emote](../../assets/media/essentials/chat/bunny-emote.webp){.img .borderless width="22" style="vertical-align: middle;" title="bunny"}
+> **User:**{.chat .username} ![Bunny emote](../../assets/media/essentials/chat/bunny-emote.webp){.img .borderless width="22" style="vertical-align: middle;" title="bunny"}
 
 Unicode emotes do not currently work and appear as the unknown character symbol.
 
@@ -130,6 +130,6 @@ Used for when you need to specify code or commands.
 `HighResShot 2`
 ```
 
-> **User:**{.font-rb .chat .username} <span style="color: #bebebeff;" class="font-rbm chat">HighResShot 2</span>
+> **User:**{.chat .username} <span style="color: #bebebeff;" class="font-rbm chat">HighResShot 2</span>
 
 Additional formatting will not work for code.
