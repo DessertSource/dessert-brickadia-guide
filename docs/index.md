@@ -22,7 +22,3 @@ This guide is my personal take on an all-purpose guide that's geared towards mak
 This is running on the latest possible version of [Zensical](https://zensical.org/), a static site generator that can be used with [GitHub Pages](https://docs.github.com/en/pages) to host documentation.
 This allows me to focus on documentation and less time spent on setting up or tuning the backend.
 As such, it also allows me to focus on consistency of the content and control the way it is presented, both creatively and informatively.
-
-![](./show-message-box-modal.svg)
-
-test
