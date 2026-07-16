@@ -73,7 +73,7 @@ def define_env(env):
             text = value
             if data_type == "string":
                 value = value.replace(" ", "·")
-                text = f'"{value}"'
+                text = f'{value}'
             elif data_type == "vector":
                 text = f'**X: {value[0]}**{{.array}} **Y: {value[1]}**{{.array}} **Z: {value[2]}**{{.array}}'
             elif data_type == "rotation":
@@ -90,6 +90,19 @@ def define_env(env):
                 icon = "lucide-square"
     
         return f'<span class="text info-mini {color}" title="{tooltip}" markdown><b> :{icon}:{{.trans}} {text}</b></span>'
+
+    # Gate availability
+    @env.macro
+    def gate_availability(value) -> None:
+
+        text = ""
+
+        if value == "admin-only":
+            text = f'**Availability:** **:lucide-shield-alert: Admin Only**{{.info-mini .text .red}} - Only people with the "Place Admin Gates" permission are allowed to use this gate.'
+        elif value == "everyone":
+            text = f'**Availability:** **:lucide-circle-check-big: Everyone**{{.info-mini}} - Everyone can use this gate.'
+        
+        return text
 
     # Color square
     @env.macro
