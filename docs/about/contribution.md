@@ -40,55 +40,17 @@ your IDE of choice:
 - [Visual Studio Code](https://learn.microsoft.com/en-us/visualstudio/version-control/git-manage-repository?view=visualstudio#merge-commits-squash)
 - [IntelliJ IDEA](https://www.jetbrains.com/help/idea/edit-project-history.html#squash-commits)
 
-### Do not send in LLM-generated content
+### LLM policy
 
-We believe excluding LLM-generated content is a net positive for
-both contributors and readers, therefore it is not allowed to have
-LLM-generated content in your pull request or issue.
+LLM generated images are banned.
 
-LLMs also pose a legal and capital risk on our behalf due to their
-improperly sourced training data without explicit formal consent
-and none of us have the financial backing to deal with potential
-lawsuits.
+However for text, we do not always have the capability to verify
+what is LLM-generated text and wish to not deploy surveillance
+measures or detection tools. We cannot read minds and will not
+debate about the efficiacy of LLMs for research and documentation
+writing, but for the sake of preserving your own knowledge, please
+do not rely entirely on LLMs to do these for you and by extension,
+us.
 
-### Text policy & the grey area
-
-We do not always have the capability to verify what is
-LLM-generated text and wish to not deploy surveillance measures or
-detection tools. We cannot read minds, but personally, please
-do not rely entirely on unproven software with results that vary.
-
-Blatant copy-pasting is a sign of a "contribution" being low
-quality. We will not know if you used LLMs unless you state so.
-If we discard a pull request after the author says they used LLMs
-in any amount, a precedent will emerge to deliberately hide LLM
-use in future authors' commits.
-
-Realistically, we cannot audit what are essentially a readable set
-of letters and map them to the author's intentions (again, we
-cannot read minds). If you know how to contribute properly, the
-quality is just as negligible because you *did* check everything
-and matched it up with a spec or what you already remember in
-your memory. Hopefully you aren't paying a subscription to these
-software, but knowing the internet, nobody ever really tells us.
-
-We would like to actively intercept every instance of LLM use,
-but it costs much more time that is worth going somewhere else. We
-cannot guarantee generated content will always not make it in. All
-we can do is make you understand that we want to offer a slop-free
-experience as much as sanely possible.
-
-### Generated image/video policy
-
-All LLM-generated image/video content is banned and is a final
-decision.
-
-- Take a screenshot.
-- Use OBS to record in-game video.
-- Learn Mermaid syntax.
-- Learn how to use Inkscape to create SVG diagrams.
-
-There is no "grey area" for generated visual media. Even LLM users
-that only use them for code occasionally express grief about how
-much visual slop there are. There is really no benefit in adding
-these into this guidebook.
+What we can do is make you understand that we want to offer a
+slop-free experience as much as sanely possible.
