@@ -8,6 +8,7 @@ def define_env(env):
         color = ""
         text = ""
         tooltip = ""
+        space = " "
 
         if data_type == "boolean":
             icon = "lucide-check-square"
@@ -88,8 +89,9 @@ def define_env(env):
                 text = f'**{value[0]}**{{.array}} = **{value[1]}**'
             elif value == "False":
                 icon = "lucide-square"
-    
-        return f'<span class="text info-mini {color}" title="{tooltip}" markdown><b> :{icon}:{{.trans}} {text}</b></span>'
+        if value == "":
+            space = "";
+        return f'<span class="text info-mini {color}" title="{tooltip}" markdown><b> :{icon}:{{.trans}}{space}{text}</b></span>'
 
     # Gate availability
     @env.macro
