@@ -123,7 +123,7 @@ def define_env(env):
             stripe_class = ' wire-var-ref'
 
         for i in range(length):
-            wire += symbols
+            wire = f'{wire}{symbols}'
 
         return f'<span aria-hidden="true" class="wire {data_type} {variant}{stripe_class}"><span class="wire-arrows">{wire}</span></span>'
 
