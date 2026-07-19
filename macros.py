@@ -72,10 +72,7 @@ def define_env(env):
 
         if value != None:
             text = value
-            if data_type == "string":
-                value = value.replace(" ", "·")
-                text = f'{value}'
-            elif data_type == "vector":
+            if data_type == "vector":
                 text = f'**X: {value[0]}**{{.array}} **Y: {value[1]}**{{.array}} **Z: {value[2]}**{{.array}}'
             elif data_type == "rotation":
                 text = f'**Roll: {value[0]}&#176;**{{.array}} **Pitch: {value[1]}&#176;**{{.array}} **Yaw: {value[2]}&#176;**{{.array}}'
