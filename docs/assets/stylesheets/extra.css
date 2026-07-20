@@ -379,6 +379,10 @@
             .info-mini.lilac { background-color: #ca44ff1a; }
             .info-mini.pink { background-color: #ff00951a; }
 
+            .var-reference {
+                border: 0.075rem var(--md-type-text-blue) solid;
+            }
+
         /* Axis representation in vector-like data types */
 
             .array {

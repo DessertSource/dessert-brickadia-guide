@@ -2,13 +2,17 @@ def define_env(env):
 
     # Variable type display
     @env.macro
-    def var_display(value, data_type) -> None:
+    def var_display(value, data_type, is_reference = None) -> None:
         
         icon = ""
         color = ""
         text = ""
         tooltip = ""
         space = " "
+        ref_class = ""
+
+        if is_reference == True:
+            ref_class = " var-reference"
 
         if data_type == "boolean":
             icon = "lucide-check-square"
@@ -88,7 +92,7 @@ def define_env(env):
                 icon = "lucide-square"
         if value == "":
             space = "";
-        return f'<span class="text info-mini {color}" title="{tooltip}" markdown><b> :{icon}:{{.trans}}{space}{text}</b></span>'
+        return f'<span class="text info-mini {color}{ref_class}" title="{tooltip}" markdown><b> :{icon}:{{.trans}}{space}{text}</b></span>'
 
     # Gate availability
     @env.macro
