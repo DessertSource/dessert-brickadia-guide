@@ -9,10 +9,15 @@ def define_env(env):
         text = ""
         tooltip = ""
         space = " "
-        ref_class = ""
+        reference_class = ""
+        reference_info = ""
 
-        if is_reference == True:
-            ref_class = " var-reference"
+        if is_reference == "normal":
+            reference_class = " var-reference"
+            reference_info = "Variable reference: "
+        if is_reference == "array":
+            reference_class = " var-array-reference"
+            reference_info = "Array variable reference: "
 
         if data_type == "boolean":
             icon = "lucide-check-square"
@@ -92,7 +97,7 @@ def define_env(env):
                 icon = "lucide-square"
         if value == "":
             space = "";
-        return f'<span class="text info-mini {color}{ref_class}" title="{tooltip}" markdown><b> :{icon}:{{.trans}}{space}{text}</b></span>'
+        return f'<span class="text info-mini {color}{reference_class}" title="{reference_info}{tooltip}" markdown><b> :{icon}:{{.trans}}{space}{text}</b></span>'
 
     # Gate availability
     @env.macro

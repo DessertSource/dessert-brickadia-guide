@@ -383,6 +383,12 @@
                 border: 0.075rem var(--md-type-text-blue) solid;
             }
 
+            .var-array-reference {
+                border: 0.075rem var(--md-type-text-blue) solid;
+                border-left-width: 0.2rem;
+                border-right-width: 0.2rem;
+            }
+
         /* Axis representation in vector-like data types */
 
             .array {
