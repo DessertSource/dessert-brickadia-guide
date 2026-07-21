@@ -640,8 +640,7 @@
         .md-nav--primary .md-nav__item .md-nav__link--active {
             background: linear-gradient(
                 90deg,
-                #526cfe31 0%,
-                #526cfe13 50%,
+                #526cfe27 0%,
                 #526cfe00 100%
             );
             background-repeat: no-repeat;
@@ -651,27 +650,18 @@
         }
 
         .md-nav--primary .md-nav__item label.md-nav__link--active {
-            background: linear-gradient(
-                270deg,
-                #526cfe31 0%,
-                #526cfe13 50%, 
-                #526cfe00 100%);
-            background-repeat: no-repeat;
+            background: none;
             border-left: none;
-            border-right: .1rem solid #526cfe;
-            padding-right: .275rem;
         }
 
         .md-nav__link.md-nav__link--passed.md-nav__link--active {
             color: var(--md-accent-fg-color);
             background: linear-gradient(
-                270deg,
-                #526cfe31 0%,
-                #526cfe13 50%,#526cfe00 100%);
+                90deg,
+                #526cfe27 0%,
+                #526cfe00 100%);
             background-repeat: no-repeat;
             font-weight: 600;
-            border-right: .1rem solid #526cfe;
-            padding-right: 4px;
         }
 
         .md-nav--primary .md-nav__link[for]:focus:not(.md-nav__link--active),
