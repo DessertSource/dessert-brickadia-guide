@@ -175,6 +175,13 @@
                 img.bordered {
                     border: .075rem solid var(--md-default-fg-color--lightest);
                 }
+            
+            /* Catalog item image class */
+
+                img.catalog-item {
+                    background-color: #455a7e;
+                    border-radius: 0.3rem;
+                }
 
             /* Rounded image */
 
