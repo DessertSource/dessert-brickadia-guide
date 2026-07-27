@@ -101,16 +101,27 @@ def define_env(env):
 
     # Gate availability
     @env.macro
-    def gate_availability(value) -> None:
+    def gate_availability(value, is_advanced = False) -> None:
 
-        text = ""
+        availability_text = ""
 
         if value == "admin-only":
-            text = f'**Availability:** **:lucide-shield-alert: Admin Only**{{.info-mini .text .red}} - Only people with the "Place Admin Gates" permission are allowed to use this gate.'
+            availability_text = f'**Availability:** **:lucide-shield-alert: Admin Only**{{.info-mini .text .red}}<br> Only people with the "Place Admin Gates" permission are allowed to use this gate.'
         elif value == "everyone":
-            text = f'**Availability:** **:lucide-circle-check-big: Everyone**{{.info-mini}} - Everyone can use this gate.'
-        
-        return text
+            availability_text = f'**Availability:** **:lucide-circle-check-big: Everyone**{{.info-mini}}<br> Everyone can use this gate.'
+
+        if is_advanced == True:
+            availability_text = (
+                f'{availability_text}\n\n'
+                f'**Visibility:** **:lucide-cog: Advanced gate**{{.info-mini}} <br>Hidden by default unless you choose to display advanced gates.'
+            )
+        elif is_advanced == False:
+            availability_text = (
+                f'{availability_text}\n\n'
+                f'**Visibility:** **:lucide-check: Simple gate**{{.info-mini}} <br>This gate is always visible.'
+            )
+
+        return availability_text
 
     # Color square
     @env.macro
