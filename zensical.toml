@@ -66,11 +66,9 @@ extra_css = [
 ]
 
 extra_javascript = [
-    "assets/libraries/glightbox.min.js",
     "assets/libraries/tex-mml-chtml.js",
     "assets/libraries/tablesort.min.js",
     "assets/libraries/plyr.polyfilled.min.js",
-    "assets/javascripts/mermaid.js",
     "assets/javascripts/mathjax.js",
     "assets/javascripts/tablesort.js",
     "assets/javascripts/plyr.js"
