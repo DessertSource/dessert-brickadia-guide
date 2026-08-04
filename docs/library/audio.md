@@ -415,4 +415,4 @@ This is a list of looping audio tracks you can use with the
 | ------------------ | ---------------------------------- |
 | Jacuzzi            | `BA_Jacuzzi`                       |
 | Lake Shore (Noisy) | `BA_Water_Resting_LakeShore_Noisy` |
-| Lake Shore (Still) | `BA_Water_Resting_LakeShore_Still  |
+| Lake Shore (Still) | `BA_Water_Resting_LakeShore_Still` |
