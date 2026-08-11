@@ -74,6 +74,12 @@ extra_javascript = [
     "assets/javascripts/plyr.js"
 ]
 
+[project.extra]
+
+polyfills = [
+    "assets/libraries/iframe-worker-shim.js"
+]
+
 [project.extra.tags]
 
 Meta = "meta"
@@ -196,9 +202,6 @@ name = "View the repository for this guide on GitHub"
 icon = "simple/codeberg"
 link = "https://codeberg.org/DessertSource/dessert-brickadia-guide"
 name = "View the repository for this guide on Codeberg"
-
-[[project.extra.polyfills]]
-iframe_worker = ""
 
 [project.markdown_extensions.abbr]
 [project.markdown_extensions.admonition]
