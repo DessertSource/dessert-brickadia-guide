@@ -7,7 +7,7 @@ tags:
 
 # One Shot Audio Tracks
 
-This is a list of looping audio tracks you can use with the
+This is a list of audio tracks you can use with the
 [One Shot Audio Player]()
 component.
 
