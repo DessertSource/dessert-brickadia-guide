@@ -2,8 +2,8 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="40pt"
-   height="200pt"
+   width="40"
+   height="200"
    viewBox="0 0 40 200"
    version="1.1"
    id="svg1"
@@ -52,6 +52,6 @@
     <path
        id="path1-8"
        style="font-variation-settings:normal;vector-effect:none;fill:#070c14;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="M 10.5,0 C 9.5395661,0 8.6185824,0.38141755 7.9394531,1.0605469 L 1.0605469,7.9394531 C 0.76765363,8.2323463 0.38388348,8.3789063 0,8.3789063 V 199.99951 H 40.000488 V 8.3789063 C 39.616767,8.3787821 39.23271,8.2322222 38.939941,7.9394531 L 32.061035,1.0605469 C 31.381906,0.38141755 30.460922,0 29.500488,0 Z" />
+       d="M 10.5,0 C 9.5395661,0 8.6185824,0.38141755 7.9394531,1.0605469 L 1.0605469,7.9394531 C 0.76765363,8.2323463 0.38388348,8.3789063 0,8.3789063 V 199.99951 H 40 V 8.3789063 C 39.616767,8.3787821 39.23271,8.2322222 38.939941,7.9394531 L 32.061035,1.0605469 C 31.381906,0.38141755 30.460922,0 29.500488,0 Z" />
   </g>
 </svg>

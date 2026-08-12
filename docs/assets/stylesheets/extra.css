@@ -704,6 +704,9 @@
 
     .md-footer {
         background-image: var(--md-footer-bg);
+        background-repeat: repeat-x;
+        background-position: left top;
+        background-size: 40px auto;
         color: var(--md-footer-fg-color);
         border: none;
     }
