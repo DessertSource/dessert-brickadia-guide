@@ -604,7 +604,11 @@
             top: .3rem;
         }
 
-        .md-search__button:hover { opacity: 0.75; }
+        @media screen and (min-width: 45em) {
+            .md-search__button:focus, .md-search__button:hover {
+                background-color: var(--md-search-button-bg-hover-color)
+            }
+        }
 
     /* Tabs */
 
@@ -789,6 +793,7 @@
     --md-header-bg-color: #3b4475;
     --md-search-button-fg-color: #111a2b;
     --md-search-button-bg-color: #fff;
+    --md-search-button-bg-hover-color: #ffffff88;
     --md-footer-fg-color: #fff;
     --md-footer-bg: url("elements/footer-background-light.svg");
     --md-footer-inner-fg-color: #A7BBCE;
@@ -828,6 +833,7 @@
     --md-header-bg-color: #070c14;
     --md-search-button-fg-color: #fff;
     --md-search-button-bg-color: #13182b;
+    --md-search-button-bg-hover-color: #3c425b;
     --md-footer-fg-color: #fff;
     --md-footer-bg: url("elements/footer-background-dark.svg");
     --md-footer-inner-fg-color: #A7BBCE;
