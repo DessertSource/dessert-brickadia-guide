@@ -4,6 +4,7 @@ document$.subscribe(function() {
   elements.forEach(element => {
     if (!element.plyr) {
       new Plyr(element, {
+        iconUrl: '/assets/stylesheets/elements/plyr.svg',
         controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'],
         settings: ['quality', 'speed'],
         quality: {
