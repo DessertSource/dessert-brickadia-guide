@@ -2,7 +2,7 @@
 
 ![Logo with name](docs/assets/stylesheets/elements/logo-with-name.png)
 
-[![Brickadia Badge](https://img.shields.io/badge/ea2-red?style=for-the-badge&label=brickadia&labelColor=14151a)](https://brickadia.com)
+[![Brickadia Badge](https://img.shields.io/badge/ea3.1-red?style=for-the-badge&label=brickadia&labelColor=14151a)](https://brickadia.com)
 ![Enbyware Badge](./docs/assets/media/index/enbyware.svg)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/dessertsource/dessert-brickadia-guide/docs.yml?logo=github&labelColor=14151a&style=for-the-badge)](https://github.com/DessertSource/dessert-brickadia-guide/deployments)
 [![Codeberg last commit (branch)](https://img.shields.io/gitea/last-commit/dessertsource/dessert-brickadia-guide?gitea_url=https%3A%2F%2Fcodeberg.org&logo=codeberg&logoColor=FFF&labelColor=14151a&style=for-the-badge)](https://codeberg.org/DessertSource/dessert-brickadia-guide)
