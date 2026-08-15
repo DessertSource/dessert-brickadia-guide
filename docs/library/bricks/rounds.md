@@ -33,7 +33,7 @@ The 4x4 round is here too despite not having a horizontal diameter of 2 studs.
 | ![2x2f Round](../../assets/media/library/bricks/rounds/2x-rounds/2x2f-round.png){.catalog-item} | 2x2f Round   | `B_2x2F_Round` | No        |
 | ![4x4 Round](../../assets/media/library/bricks/rounds/2x-rounds/4x4-round.png){.catalog-item}   | 4x4 Round    | `B_4x4_Round`  | No        |
 
-## 1x Octogonals
+## 1x Octagonals
 
 These bricks are octagonal and have a horizontal diameter of 1 stud.
 
@@ -46,7 +46,7 @@ These bricks are octagonal and have a horizontal diameter of 1 stud.
 | ![1x Octo T Inv](../../assets/media/library/bricks/rounds/1x-octagonals/1x-octo-t-inverted.png){.catalog-item}    | 1x Octo T Inv   | `B_1x_Octo_T_Inv`     | No        |
 | ![1x1f Octo](../../assets/media/library/bricks/rounds/1x-octagonals/1x1f-octo.png){.catalog-item}                 | 1x1f Octo       | `B_1x1F_Octo`         | No        |
 
-## 2x Octogonals
+## 2x Octagonals
 
 These bricks are octagonal and have a horizontal diameter of 2 studs.
 
