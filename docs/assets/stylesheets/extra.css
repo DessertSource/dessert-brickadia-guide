@@ -385,14 +385,28 @@
             .info-mini.lilac { background-color: #ca44ff1a; }
             .info-mini.pink { background-color: #ff00951a; }
 
-            .var-reference {
+            .info-mini.var-ref {
                 border: 0.075rem var(--md-type-text-blue) solid;
             }
 
-            .var-array-reference {
+            .info-mini.array-ref {
                 border: 0.075rem var(--md-type-text-blue) solid;
-                border-left-width: 0.2rem;
                 border-right-width: 0.2rem;
+            }
+
+            .info-mini.map-ref.key-integer {
+                border: 0.075rem var(--md-type-text-blue) solid;
+                border-right: 0.2rem var(--md-type-text-teal) solid;
+            }
+
+            .info-mini.map-ref.key-string {
+                border: 0.075rem var(--md-type-text-blue) solid;
+                border-right: 0.2rem var(--md-type-text-orange) solid;
+            }
+
+            .info-mini.map-ref.key-object {
+                border: 0.075rem var(--md-type-text-blue) solid;
+                border-right: 0.2rem var(--md-type-text-cyan) solid;
             }
 
         /* Axis representation in vector-like data types */
@@ -516,7 +530,45 @@
                 user-select: none;
             }
 
-            .wire.wire-var-ref::before {
+            .wire.var-ref::before {
+                content: "";
+                position: absolute;
+                z-index: -2;
+                inset: 0;
+                padding: 4px 0 4px 4px;
+                background: repeating-linear-gradient(
+                    -45deg,
+                    #0000,
+                    #0000 24px,
+                    #0000AF 24px,
+                    #0000AF 30px,
+                    #0000 30px,
+                    #0000 48px
+                );
+            }
+
+            .wire.array-ref::before {
+                content: "";
+                position: absolute;
+                z-index: -2;
+                inset: 0;
+                padding: 4px 0 4px 4px;
+                background: repeating-linear-gradient(
+                    -45deg,
+                    #0000,
+                    #0000 19px,
+                    #0000AF 19px,
+                    #0000AF 23px,
+                    #0000 23px,
+                    #0000 25px,
+                    #0000AF 25px,
+                    #0000AF 29px,
+                    #0000 29px,
+                    #0000 48px
+                );
+            }
+
+            .wire.map-ref.key-integer::before {
                 content: "";
                 position: absolute;
                 z-index: -2;
@@ -525,9 +577,54 @@
                 background: repeating-linear-gradient(
                     -45deg,
                     #0000AF,
-                    #0000AF 8px,
-                    #0000 8px,
-                    #0000 48px
+                    #0000AF 6px,
+                    #0000 6px,
+                    #0000 48px,
+                    #0000AF 48px,
+                    #0000AF 54px,
+                    #1BB8A1 54px,
+                    #1BB8A1 96px
+                    );
+                );
+            }
+
+            .wire.map-ref.key-string::before {
+                content: "";
+                position: absolute;
+                z-index: -2;
+                inset: 0;
+                padding: 4px 0 4px 4px;
+                background: repeating-linear-gradient(
+                    -45deg,
+                    #0000AF,
+                    #0000AF 6px,
+                    #0000 6px,
+                    #0000 48px,
+                    #0000AF 48px,
+                    #0000AF 54px,
+                    #d38c20 54px,
+                    #d38c20 96px
+                    );
+                );
+            }
+
+            .wire.map-ref.key-object::before {
+                content: "";
+                position: absolute;
+                z-index: -2;
+                inset: 0;
+                padding: 4px 0 4px 4px;
+                background: repeating-linear-gradient(
+                    -45deg,
+                    #0000AF,
+                    #0000AF 6px,
+                    #0000 6px,
+                    #0000 48px,
+                    #0000AF 48px,
+                    #0000AF 54px,
+                    #0098B5 54px,
+                    #0098B5 96px
+                    );
                 );
             }
 
@@ -559,10 +656,16 @@
             .wire.integer.zero { background: #00503E; }
             .wire.integer.one { background: #00A48C; }
             .wire.integer.two { background: #1BB8A1; }
-            .wire.float.one { background: #06A428; }
-            .wire.float.half { background: #017F18; }
             .wire.float.zero { background: #003B05; }
-            .wire.entity { background: #0098B5; }
+            .wire.float.half { background: #017F18; }
+            .wire.float.one { background: #06A428; }
+            .wire.string { background: #d38c20; }
+            .wire.vector { background: #ceb200; }
+            .wire.rotation { background: #81c87f; }
+            .wire.quaternion { background: #6ebfbe; }
+            .wire.object { background: #0098B5; }
+            .wire.color { background: #df51b5; }
+            .wire.enum { background: #bf93c8; }
             .wire.exec.off { background: #726C63; }
             .wire.exec.on { background: #D5D2CE; }
             .wire.blue { background: #0000AF; }
