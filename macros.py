@@ -130,19 +130,50 @@ def define_env(env):
 
     # Wire color display
     @env.macro
-    def wire_display(length, data_type, variant, reference) -> None:
+    def wire_display(length, data_type, variant = str, secondary_type = str, map_key_type = str) -> None:
+
+        # Symbol variable with arrow, whitespace and wire string variable.
 
         symbols = "&#x25B6;&#xFE0E;"
         wire = ""
-        stripe_class = ""
+
+        # Start formatting the wire display.
         
-        if reference == True:
-            stripe_class = ' wire-var-ref'
+        text = f'<span aria-hidden="true" class="wire {data_type}'
+
+        # If data type has a variant, add the variant class.
+
+        if variant != None:
+            text += f' {variant}'
+
+        # Add secondary type class when the wire is of a variable reference.
+
+        if secondary_type == "var-ref":
+            text += f' var-ref'
+        elif secondary_type == "array-ref":
+            text += f' array-ref'
+        elif secondary_type == "map-ref":
+            text += f' map-ref'
+
+        # Map key data type.
+
+        if map_key_type == 'integer':
+            text = text + f' key-integer'
+        elif map_key_type == 'string':
+            text = text + f' key-string'
+        elif map_key_type == 'object':
+            text = text + f' key-object'
+
+        # Make the wire string.
 
         for i in range(length):
-            wire = f'{wire}{symbols}'
+            wire += symbols
+        
+        # Finish formatting the wire display.
 
-        return f'<span aria-hidden="true" class="wire {data_type} {variant}{stripe_class}"><span class="wire-arrows">{wire}</span></span>'
+        text += f'"><span class="wire-arrows">{wire}</span></span>'
+
+        return text
 
     # Video
     @env.macro
