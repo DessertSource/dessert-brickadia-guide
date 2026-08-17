@@ -164,11 +164,11 @@ type color with double blue stripes added.
 | {{var_display(None,"color","array-ref")}}      | {{wire_display(10, "color", None, "array-ref")}}      |
 | {{var_display(None,"enum","array-ref")}}       | {{wire_display(10, "enum", None, "array-ref")}}       |
 
-## Map array variable references
+## Map variable references
 
-Wires carrying map array variable references will inherit both the color of
-the key value data type and the main value data type with singular blue
-stripes separating them.
+Wires carrying map variable references will inherit both the color of the key
+data type and the main value data type with singular blue stripes separating
+them.
 
 A few examples:
 

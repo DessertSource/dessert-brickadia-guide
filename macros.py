@@ -205,7 +205,7 @@ def define_env(env):
             tooltip = "Array variable reference: " + tooltip
         elif secondary_type == "map-ref":
             main_classes += " map-ref"
-            tooltip = "Map array variable reference: " + tooltip
+            tooltip = "Map variable reference: " + tooltip
 
             # Only execute this if the secondary type is specified as
             # map-ref (map array variable reference).
