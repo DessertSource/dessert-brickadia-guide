@@ -520,7 +520,7 @@
 
             .wire {
                 position: relative;
-                z-index: 0;
+                z-index: 2;
                 padding: 4px 0 4px 4px;
                 width: max-content;
                 background: #BDB9B3;
@@ -533,7 +533,7 @@
             .wire.var-ref::before {
                 content: "";
                 position: absolute;
-                z-index: -2;
+                z-index: 0;
                 inset: 0;
                 padding: 4px 0 4px 4px;
                 background: repeating-linear-gradient(
@@ -550,7 +550,7 @@
             .wire.array-ref::before {
                 content: "";
                 position: absolute;
-                z-index: -2;
+                z-index: 0;
                 inset: 0;
                 padding: 4px 0 4px 4px;
                 background: repeating-linear-gradient(
@@ -571,7 +571,7 @@
             .wire.map-ref.key-integer::before {
                 content: "";
                 position: absolute;
-                z-index: -2;
+                z-index: 0;
                 inset: 0;
                 padding: 4px 0 4px 4px;
                 background: repeating-linear-gradient(
@@ -584,14 +584,13 @@
                     #0000AF 54px,
                     #1BB8A1 54px,
                     #1BB8A1 96px
-                    );
                 );
             }
 
             .wire.map-ref.key-string::before {
                 content: "";
                 position: absolute;
-                z-index: -2;
+                z-index: 0;
                 inset: 0;
                 padding: 4px 0 4px 4px;
                 background: repeating-linear-gradient(
@@ -604,14 +603,13 @@
                     #0000AF 54px,
                     #d38c20 54px,
                     #d38c20 96px
-                    );
                 );
             }
 
             .wire.map-ref.key-object::before {
                 content: "";
                 position: absolute;
-                z-index: -2;
+                z-index: 0;
                 inset: 0;
                 padding: 4px 0 4px 4px;
                 background: repeating-linear-gradient(
@@ -624,14 +622,13 @@
                     #0000AF 54px,
                     #0098B5 54px,
                     #0098B5 96px
-                    );
                 );
             }
 
             .wire::after {
                 content: "";
                 position: absolute;
-                z-index: -1;
+                z-index: 1;
                 inset: 0;
                 padding: 4px 0 4px 4px;
                 background: linear-gradient(
@@ -645,7 +642,7 @@
 
             .wire-arrows {
                 position: relative;
-                z-index: 1;
+                z-index: 3;
                 color: #ffffff7e;
                 padding: 4px 0 4px 4px;
                 mix-blend-mode: overlay;
