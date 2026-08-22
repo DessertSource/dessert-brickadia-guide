@@ -56,9 +56,46 @@ nav = [
             # "wires/basics/what-are-gates.md",
             # "wires/basics/rerouters",   
             "wires/basics/execution-signals.md",
-            "wires/basics/wire-colors.md"
+            "wires/basics/wire-appearance.md"
         ]}
+    ]},
+
+    { "Library" = [
+        # "library/index.md",
+        { "Avatar Parts" = [
+            "library/avatar-parts/sockets.md",
+            "library/avatar-parts/body-parts.md",
+            "library/avatar-parts/headwear.md",
+            "library/avatar-parts/accessories.md",
+            "library/avatar-parts/stickers.md"
+        ]},
+        { "Entities" = [
+            "library/entities/physics-objects.md",
+            "library/entities/wheels.md",
+        ]},
+        { "Bricks" = [
+            "library/bricks/bricks.md",
+            "library/bricks/ramps.md",
+            "library/bricks/rounds.md",
+            "library/bricks/special.md",
+            "library/bricks/micro-bricks.md",
+            "library/bricks/physics.md",
+            "library/bricks/mechanics.md",
+            "library/bricks/wires-pure.md",
+            "library/bricks/wires-exec.md"
+        ]},
+        # { "Items" = [
+        #     "library/items/weapons.md"
+        # ]},
+        { "Audio" = [
+            "library/audio/audio.md",
+            "library/audio/one-shot-audio.md",
+            "library/audio/items-audio.md",
+            "library/audio/wheel-engine-audio.md"
+        ]},
+        "library/fonts.md"
     ]}
+
 ]
 
 extra_css = [
