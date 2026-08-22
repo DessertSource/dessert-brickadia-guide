@@ -4,36 +4,70 @@ tags:
   - Wires
 ---
 
-# Wire colors
+# Wire appearance
 
-There are various wire colors in Brickadia which signify data types. If
-applicable, the color of wires will also be lighter or darker depending on the
-value of the output being carried.
+These are the unique cosmetic features of wires in Brickadia.
 
-Wires glow in the dark, which allows them to be visible in every environment.
+!!! info "Summary"
 
-![Wires glowing in the dark]()
+    - They glow in the dark
+    - They have arrows when you equip the [Connector]()
+    - Their colors represent various data types
+
+## Wire glow
+
+Wires glow in the dark, which allows them to be visible in dark environments,
+e.g. at night, in the void, etc.
+
+![Wires glowing in the dark](../../assets/media/wires/wire-appearance/wire-glow.jpg)
 
 ## Wire arrows
 
 Wires will show arrows pointing towards their inputs when you equip the
 [Connector](). These arrows are not visible in normal play.
+They guide you towards the next input they are connected to.
 
 === ":lucide-check: With arrows"
 
-    ![Wires with arrows]()
+    ![Wires with arrows](../../assets/media/wires/wire-appearance/wire-arrows-enabled.jpg)
 
 === ":lucide-x: Without arrows"
 
-    ![Wires without arrows]()
+    ![Wires without arrows](../../assets/media/wires/wire-appearance/wire-arrows-disabled.jpg)
 
-## Unconnected wires
+## Wire colors
+
+There are various wire colors in Brickadia which signify data types. If
+applicable, the color of wires will also be lighter or darker depending on the
+value of the output being carried.
+
+The prefab below assists with understanding wire colors.
+
+<div class="grid cards" markdown>
+
+-   !!! quote inline ""
+
+        ![Wire color sampler](../../assets/media/wires/wire-appearance/wire-color-sampler.webp)
+
+    **Wire Color Sampler**
+
+    This compact prefab has a sample of every wire color for each data type
+    that you can access. You can carry and reference this anywhere you go.
+
+    Other variable/array/map types are not included due to redundancy.
+
+    ---
+
+    [**:lucide-search: View in Gallery**](https://brickadia.com/gallery/338-682-81f){ .info-mini .blue }
+    **Share code: `338-682-81f`**{.info-mini}
+
+</div>
+
+### Unconnected wires
 
 Unconnected wires have a gray color.
 
 {{wire_display(10, None)}}
-
-## Data type wire colors
 
 ### :lucide-check-square: Boolean
 
@@ -121,14 +155,14 @@ will flash light gray for one tick.
 | {{var_display("Off","exec")}} | {{wire_display(10, "exec", "off")}}<br>Dark gray |
 | {{var_display("On","exec")}}  | {{wire_display(10, "exec", "on")}}<br>Light gray |
 
-## Non-standard data types
+### Non-standard data types
 
 Blue is a color often used for non-standard data types that are not colored by
 a specific criteria.
 
 {{wire_display(10, "blue")}}
 
-## Variable references
+### Variable references
 
 Wires carrying variable references will inherit their variable's data type
 color with single blue stripes added.
@@ -146,7 +180,7 @@ color with single blue stripes added.
 | {{var_display(None,"color","var-ref")}}      | {{wire_display(10, "color", None, "var-ref")}}      |
 | {{var_display(None,"enum","var-ref")}}       | {{wire_display(10, "enum", None, "var-ref")}}       |
 
-## Array variable references
+### Array variable references
 
 Wires carrying array variable references will inherit their variable's data
 type color with double blue stripes added.
@@ -164,7 +198,7 @@ type color with double blue stripes added.
 | {{var_display(None,"color","array-ref")}}      | {{wire_display(10, "color", None, "array-ref")}}      |
 | {{var_display(None,"enum","array-ref")}}       | {{wire_display(10, "enum", None, "array-ref")}}       |
 
-## Map variable references
+### Map variable references
 
 Wires carrying map variable references will inherit both the color of the key
 data type and the main value data type with singular blue stripes separating
