@@ -671,6 +671,8 @@
 
         .glightbox-clean .gslide-title { font-family: var(--md-text-font) !important; }
 
+        .md-typeset figcaption { color: var(--md-default-fg-color--light)}
+
 /* Header */
 
     .md-header {
