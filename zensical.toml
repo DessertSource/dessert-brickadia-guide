@@ -240,53 +240,58 @@ icon = "simple/codeberg"
 link = "https://codeberg.org/DessertSource/dessert-brickadia-guide"
 name = "View the repository for this guide on Codeberg"
 
-[project.markdown_extensions.abbr]
-[project.markdown_extensions.admonition]
-[project.markdown_extensions.attr_list]
-[project.markdown_extensions.footnotes]
-[project.markdown_extensions.md_in_html]
-[project.markdown_extensions.toc]
-title = "On this page"
-permalink = "¶"
-permalink_title = "Anchor link to this section for copying"
-[project.markdown_extensions.toc.slugify]
-function = "pymdownx.slugs.slugify"
-kwds = {case = "lower"}
-[project.markdown_extensions.tables]
-[project.markdown_extensions.pymdownx.arithmatex]
-generic = true
-[project.markdown_extensions.pymdownx.blocks.caption]
-[project.markdown_extensions.pymdownx.caret]
-[project.markdown_extensions.pymdownx.tilde]
-[project.markdown_extensions.pymdownx.details]
-[project.markdown_extensions.pymdownx.emoji]
-emoji_index = "zensical.extensions.emoji.twemoji" 
-emoji_generator = "zensical.extensions.emoji.to_svg"
-options.custom_icons = ["overrides/.icons"]
-[project.markdown_extensions.pymdownx.highlight]
-anchor_linenums = true
-line_spans = "__span"
-pygments_lang_class = true
-[project.markdown_extensions.pymdownx.inlinehilite]
-[project.markdown_extensions.pymdownx.keys]
-key_map = { "asterisk" = "*", "scrollwheel" = "Mouse Scroll Wheel", "leftbutton" = "Left Mouse Button", "middlebutton" = "Middle Mouse Button", "rightbutton" = "Right Mouse Button"}
-[project.markdown_extensions.pymdownx.snippets]
-auto_append = ["docs/snippets/abbreviations.md"]
-check_paths = true
-[project.markdown_extensions.pymdownx.superfences]
-custom_fences = [
-  {name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format"}
+[project.markdown_extensions]
+
+abbr = {}
+admonition = {}
+attr_list = {}
+footnotes = {}
+md_in_html = {}
+
+toc.title = "On this page"
+toc.permalink = "¶"
+toc.permalink_title = "Anchor link to this section for copying"
+toc.slugify.object = "pymdownx.slugs.slugify"
+toc.slugify.kwds.case = "lower"
+
+tables = {}
+
+pymdownx.arithmatex.generic = true
+pymdownx.blocks.caption = {}
+
+pymdownx.caret = {}
+pymdownx.mark = {}
+pymdownx.tilde = {}
+
+pymdownx.details = {}
+
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.emoji.options.custom_icons = [
+  "docs/assets/overrides/.icons",
 ]
-[project.markdown_extensions.pymdownx.smartsymbols]
-fractions = false
-[project.markdown_extensions.pymdownx.tabbed]
-alternate_style = true
-[project.markdown_extensions.pymdownx.tabbed.slugify]
-object = "pymdownx.slugs.slugify"
-kwds = {case = "lower"}
-[project.markdown_extensions.pymdownx.tasklist]
-custom_checkbox = true
-# [project.markdown_extensions.zensical.extensions.glightbox]
-# auto_caption = true
-[project.markdown_extensions.zensical.extensions.macros]
-module_name = "macros"
+
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+
+pymdownx.inlinehilite = {}
+pymdownx.keys.key_map = { "asterisk" = "*", "scrollwheel" = "Mouse Scroll Wheel", "leftbutton" = "Left Mouse Button", "middlebutton" = "Middle Mouse Button", "rightbutton" = "Right Mouse Button"}
+
+pymdownx.snippets.auto_append = ["docs/snippets/abbreviations.md"]
+pymdownx.snippets.check_paths = true
+
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+
+pymdownx.smartsymbols = { "fractions" = false }
+
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.slugify.object = "pymdownx.slugs.slugify"
+pymdownx.tabbed.slugify.kwds.case = "lower"
+
+pymdownx.tasklist.custom_checkbox = true
+
+# ensical.extensions.glightbox.auto_caption = true
+
+zensical.extensions.macros.module_name = "macros"
