@@ -319,15 +319,24 @@ def define_env(env):
 
     # Video
     @env.macro
-    def video(path, title):
+    def video(path, loop = False, quality_enabled = False, title = None):
 
-        video = f"{path}"
-        thumbnail = f"{path}"
+        loop_attribute = ""
 
-        html = (
-            f'<video playsinline controls preload="none" src="{path}.mp4" poster="{path}-poster.jpg" title="{title}">'
-            f'  <source src="{path}-1080p.mp4" type="video/mp4" size="1080">'
-            f'  <source src="{path}-540p.mp4" type="video/mp4" size="540">'
-            f'</video>'
-        )
+        if loop == True:
+            loop_attribute = " loop"
+
+        if quality_enabled == True:
+            html = (
+                f'<video playsinline controls{loop_attribute} preload="none" src="{path}.mp4" poster="{path}-poster.jpg" title="{title}">'
+                f'  <source src="{path}-1080p.mp4" type="video/mp4" size="1080">'
+                f'  <source src="{path}-540p.mp4" type="video/mp4" size="540">'
+                f'</video>'
+            )
+        elif quality_enabled == False:
+            html = (
+                f'<video playsinline controls{loop_attribute} preload="none" src="{path}.mp4" poster="{path}-poster.jpg" title="{title}">'
+                f'</video>'
+            )
+
         return html
