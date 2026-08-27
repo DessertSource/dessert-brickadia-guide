@@ -458,7 +458,7 @@
                 --md-game-button-gray-bg-color: #92A3BB;
 
                 --md-game-button-normal-fg-color: #a7bbce;
-                --md-game-button-large-fg-color: #a7bbce;
+                --md-game-button-large-fg-color: #fff;
                 --md-game-button-colored-fg-color: #fff;
 
                 background-color: var(--md-game-button-normal-bg-color);
