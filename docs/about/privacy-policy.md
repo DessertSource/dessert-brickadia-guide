@@ -15,17 +15,17 @@ you use this site.
 
 ---
 
-**Last updated: 12 August 2026**
+**Last updated: 28 August 2026**
 
 ## 1. Definitions
 
-- **The Project (referred to as "We", "Us" or "Our"):** Refers to
-the maintainers, core contributors and administrator of the
-"dessert-brickadia-guide" repository located at
-[Codeberg](https://codeberg.org/DessertSource/dessert-brickadia-guide),
-which is also mirrored and synchronized to GitHub at this location:
-[https://github.com/DessertSource/dessert-brickadia-guide](https://github.com/DessertSource/dessert-brickadia-guide).
-- **Site/Website:** The static website ["Dessert's Guidebook"](https://dessertsource.github.io/dessert-brickadia-guide/index.html)
+- **Decoding The Source (referred to as "We", "Us" or "Our"):** The
+GitHub/Codeberg organization that this project is managed under, including
+current team members. The repository is hosted on
+[Codeberg](https://codeberg.org/decoding-the-source/dessert-brickadia-guide),
+which is mirrored to GitHub at this location:
+[https://github.com/DessertSource/dessert-brickadia-guide](https://github.com/decoding-the-source/dessert-brickadia-guide).
+- **Site/Website:** The static website ["Dessert's Guidebook"](https://decoding-the-source.github.io/dessert-brickadia-guide/index.html)
 that is being served to visitors.
 
 ## 2. Hosting
@@ -51,6 +51,7 @@ of this website to display:
     - Build status from GitHub
     - Date since the last commit on Codeberg
     - Cosmetic badge for the current game version of Brickadia
+    - Cosmetic badge for our organization "Decoding The Source"
 
 ## 4. Data Processing
 
@@ -58,10 +59,8 @@ When you visit our website, the providers of the services we use may
 automatically collect information from your device, which
 includes:
 
-- **IP addresses:** classified as personal data under global
-privacy laws
-- **Usage data:** browser type, browser configuration and request
-history
+- **IP addresses:** classified as personal data under global privacy laws
+- **Usage data:** browser type, browser configuration and request history
 
 For details on how your data is handled by third-parties when you use this
 website, please consult the following privacy policies:
@@ -79,11 +78,11 @@ websites' respective privacy policies for more information.
 ## 6. Updates To This Privacy Policy
 
 We may update this Privacy Policy periodically. You can verify when we've
-updated this Privacy Policy with [Git commit history](https://codeberg.org/DessertSource/dessert-brickadia-guide/commits/branch/main)
+updated this Privacy Policy with [Git commit history](https://codeberg.org/decoding-the-source/dessert-brickadia-guide/commits/branch/main)
 on our Codeberg repository. This page will always have the latest version of
 this Privacy Policy.
 
 ## 7. Contact
 
 If you have privacy concerns or questions about our Project, please make a
-public issue on the main repository for this Project at its [Codeberg page](https://codeberg.org/DessertSource/dessert-brickadia-guide).
+public issue on the main repository for this Project at its [Codeberg page](https://codeberg.org/decoding-the-source/dessert-brickadia-guide).

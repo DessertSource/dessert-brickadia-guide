@@ -8,7 +8,7 @@ search:
 
 # License
 
-Copyright (c) 2026-present DessertSource and contributors.
+Copyright (c) 2026-present Decoding The Source members and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ SOFTWARE.
 View the file in the repository that stores an exact copy of this
 license:
 
-[:simple-codeberg: View license file on Codeberg](https://codeberg.org/DessertSource/dessert-brickadia-guide/src/branch/main/LICENSE){ .md-button .md-button--primary }
+[:simple-codeberg: View license file on Codeberg](https://codeberg.org/decoding-the-source/dessert-brickadia-guide/src/branch/main/LICENSE){ .md-button .md-button--primary }
 
 ---
 

@@ -3,16 +3,16 @@
 site_name = "Dessert's Guidebook"
 site_description = "A comprehensive, self-learning based book for the game Brickadia"
 site_author = "DessertSource"
-site_url = "https://dessertsource.github.io/dessert-brickadia-guide"
+site_url = "https://decoding-the-source.github.io/dessert-brickadia-guide"
 
-repo_url = "https://codeberg.org/DessertSource/dessert-brickadia-guide"
+repo_url = "https://codeberg.org/decoding-the-source/dessert-brickadia-guide"
 repo_name = "dessert-brickadia-guide"
 
 copyright = """
-<a href="https://dessertsource.github.io/dessert-brickadia-guide/about/license.html">
-&copy; 2026 DessertSource & contribs.</a>
+<a href="https://decoding-the-source.github.io/dessert-brickadia-guide/about/license.html">
+&copy; 2026 Decoding The Source members & contributors</a>
 |
-<a href="https://dessertsource.github.io/dessert-brickadia-guide/about/privacy-policy.html">
+<a href="https://decoding-the-source.github.io/dessert-brickadia-guide/about/privacy-policy.html">
 Privacy Policy</a>
 """
 
