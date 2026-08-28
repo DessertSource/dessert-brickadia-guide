@@ -232,13 +232,18 @@ code = false
 
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/DessertSource/dessert-brickadia-guide"
+link = "https://github.com/decoding-the-source/dessert-brickadia-guide"
 name = "View the repository for this guide on GitHub"
 
 [[project.extra.social]]
 icon = "simple/codeberg"
-link = "https://codeberg.org/DessertSource/dessert-brickadia-guide"
+link = "https://codeberg.org/decoding-the-source/dessert-brickadia-guide"
 name = "View the repository for this guide on Codeberg"
+
+[[project.extra.social]]
+icon = "dtsrc/special/decoding-the-source"
+link = "https://codeberg.org/decoding-the-source"
+name = "View the Decoding the Source organization on Codeberg"
 
 [project.markdown_extensions]
 
