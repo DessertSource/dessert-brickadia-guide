@@ -21,12 +21,13 @@ you use this site.
 
 - **Decoding The Source (referred to as "We", "Us" or "Our"):** The
 GitHub/Codeberg organization that this project is managed under, including
-current team members. The repository is hosted on
-[Codeberg](https://codeberg.org/decoding-the-source/dessert-brickadia-guide),
-which is mirrored to GitHub at this location:
-[https://github.com/DessertSource/dessert-brickadia-guide](https://github.com/decoding-the-source/dessert-brickadia-guide).
+current team members.
+- **Contributors:** External users not part of the "Decoding The Source"
+organization, who have contributed to the site's repository.
 - **Site/Website:** The static website ["Dessert's Guidebook"](https://decoding-the-source.github.io/dessert-brickadia-guide/index.html)
-that is being served to visitors.
+that is being served to visitors. The repository that houses the files to host
+this site is hosted on [Codeberg](https://codeberg.org/decoding-the-source/dessert-brickadia-guide),
+which is mirrored to GitHub at this location: [https://github.com/DessertSource/dessert-brickadia-guide](https://github.com/decoding-the-source/dessert-brickadia-guide).
 
 ## 2. Hosting
 
